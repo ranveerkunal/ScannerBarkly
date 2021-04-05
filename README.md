@@ -25,7 +25,7 @@ Here is the [code](https://github.com/ranveerkunal/ScannerBarkly/blob/main/py/pa
 
 Pseudo Code:
 ```
-1. Scarpe the list from wiki page.
+1. Scrape the list from wiki page.
 2. Get the info box image for each individual breed.
 3. For each breed
   1. Scale the image such that the longest edge is 420.
