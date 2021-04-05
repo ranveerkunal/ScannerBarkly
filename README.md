@@ -42,6 +42,5 @@ I have minted top 50 breeds and going to put them on auction. I will submit the 
 
 Thanks for creative inputs:
 
-[fernanda](https://www.instagram.com/fecalabrialage/)
-
-[randi](https://www.instagram.com/randihenri/)
+* [fernanda](https://www.instagram.com/fecalabrialage/)
+* [randi](https://www.instagram.com/randihenri/)
