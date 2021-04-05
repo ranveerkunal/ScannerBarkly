@@ -38,7 +38,7 @@ Pseudo Code:
 ```
 
 Why Marin County? The movie A Scanner Darkley is based on a novel about the author's experiences in the Marin County.
-I have minted top 50 breeds and going to put them on [sale](https://opensea.io/assets/scannerbarkly?search[resultModel]=ASSETS). I will submit the proof of donations here in this repository.
+I have minted 138 breeds and going to put them on [sale](https://opensea.io/assets/scannerbarkly?search[resultModel]=ASSETS). I will submit the proof of donations here in this repository.
 The offer price is set to 1/rank ETH (4 decimal points).
 
 Thanks for creative inputs:
