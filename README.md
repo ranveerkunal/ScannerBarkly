@@ -6,7 +6,7 @@
 
 I always wanted to do something in the general direction of helping dogs.
 This weekend i saw a clip from the movie A Scanner Drakly and decided to create this collection explained below.
-All proceeds and royalties (if any :grin:) from this collection will go to a [Marine Humane](https://www.marinhumane.org/get-involved/ways-to-give/).
+All proceeds and royalties (if any :grin:) from this collection will go to a [Marin Humane](https://www.marinhumane.org/get-involved/ways-to-give/) or some other dog friends in Marin County.
 
 I was always intrigued by this [page](https://en.wikipedia.org/wiki/The_Intelligence_of_Dogs), which talks about 6 tiers of intelligence of the dogs based on a famous book.
 There are in total 138 dogs in the list. I chose a colored ribbon for each tier.
