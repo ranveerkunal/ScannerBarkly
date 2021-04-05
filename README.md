@@ -6,12 +6,12 @@
 
 I always wanted to do something in the general direction of helping dogs.
 This weekend i saw a clip from the movie A Scanner Drakly and decided to create this collection explained below.
-All proceeds and royalties (if any :grin:) from this collection will go to a [Marine Humane](https://www.marinhumane.org/get-involved/ways-to-give/).
+All proceeds and royalties (if any :grin:) from this collection will go to a [Marin Humane](https://www.marinhumane.org/get-involved/ways-to-give/) or some other dog friends in Marin County.
 
 I was always intrigued by this [page](https://en.wikipedia.org/wiki/The_Intelligence_of_Dogs), which talks about 6 tiers of intelligence of the dogs based on a famous book.
 There are in total 138 dogs in the list. I chose a colored ribbon for each tier.
 ```
-# Scanner Darkly: red, oranga, yellow, green, blue, violet
+# Scanner Darkly: red, orange, yellow, green, blue, violet
 PALETTE = {
     1: color('#912318'), 
     2: color('#EE5D02'), 
@@ -25,7 +25,7 @@ Here is the [code](https://github.com/ranveerkunal/ScannerBarkly/blob/main/py/pa
 
 Pseudo Code:
 ```
-1. Scarpe the list from wiki page.
+1. Scrape the list from wiki page.
 2. Get the info box image for each individual breed.
 3. For each breed
   1. Scale the image such that the longest edge is 420.
@@ -38,7 +38,7 @@ Pseudo Code:
 ```
 
 Why Marin County? The movie A Scanner Darkley is based on a novel about the author's experiences in the Marin County.
-I have minted top 50 breeds and going to put them on [sale](https://opensea.io/assets/scannerbarkly?search[resultModel]=ASSETS). I will submit the proof of donations here in this repository.
+I have minted 138 breeds and going to put them on [sale](https://opensea.io/assets/scannerbarkly?search[resultModel]=ASSETS). I will submit the proof of donations here in this repository.
 The offer price is set to 1/rank ETH (4 decimal points).
 
 Thanks for creative inputs:
