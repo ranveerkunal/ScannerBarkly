@@ -20,7 +20,7 @@ PALETTE = {
     5: color('#496BBC'), 
     6: color('#3B3559')}
 ```
-The shade of those colors are inspired by A Scanner Darkly.
+The shade of those colors and effects are inspired by A Scanner Darkly.
 Here is the [code](https://github.com/ranveerkunal/ScannerBarkly/blob/main/py/parser.ipynb) that generated the images.
 
 Pseudo Code:
@@ -30,7 +30,7 @@ Pseudo Code:
 3. For each breed
   1. Scale the image such that the longest edge is 420.
   2. Equalize histogram.
-  3. Scanner Darkly effect: Quantize image to 12 colors.
+  3. Scanner Darkly effect: Quantize image to 12 colors (K-Means using L*a*b space).
   4. Create a 500x500 background using the least common color.
   5. Add a ribbon based on the tier color.
   6. Paste the quantized image on the top of the background.
@@ -38,7 +38,7 @@ Pseudo Code:
 ```
 
 Why Marin County? The movie A Scanner Darkley is based on a novel about the author's experiences in the Marin County.
-I have minted top 50 breeds and going to put them on [auction](https://opensea.io/collection/scannerbarkly). I will submit the proof of donations here in this repository.
+I have minted top 50 breeds and going to put them on [sale](https://opensea.io/assets/scannerbarkly?search[resultModel]=ASSETS). I will submit the proof of donations here in this repository.
 The offer price is set to 1/rank ETH (4 decimal points).
 
 Thanks for creative inputs:
