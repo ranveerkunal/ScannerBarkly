@@ -11,7 +11,7 @@ All proceeds and royalties (if any :grin:) from this collection will go to a [Ma
 I was always intrigued by this [page](https://en.wikipedia.org/wiki/The_Intelligence_of_Dogs), which talks about 6 tiers of intelligence of the dogs based on a famous book.
 There are in total 138 dogs in the list. I chose a colored ribbon for each tier.
 ```
-# Scanner Darkly: red, oranga, yellow, green, blue, violet
+# Scanner Darkly: red, orange, yellow, green, blue, violet
 PALETTE = {
     1: color('#912318'), 
     2: color('#EE5D02'), 
