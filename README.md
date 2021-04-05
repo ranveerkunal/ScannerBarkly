@@ -30,7 +30,7 @@ Pseudo Code:
 3. For each breed
   1. Scale the image such that the longest edge is 420.
   2. Equalize histogram.
-  3. Scanner Darkley effect: Quantize image to 12 colors.
+  3. Scanner Darkly effect: Quantize image to 12 colors.
   4. Create a 500x500 background using the least common color.
   5. Add a ribbon based on the tier color.
   6. Paste the quantized image on the top of the background.
