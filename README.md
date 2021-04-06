@@ -34,7 +34,7 @@ Pseudo Code:
   4. Create a 500x500 background using the least common color.
   5. Add a ribbon based on the tier color.
   6. Paste the quantized image on the top of the background.
-4. Write the mages to disk.
+4. Write the images to disk.
 ```
 
 Why Marin County? The movie A Scanner Darkley is based on a novel about the author's experiences in the Marin County.
