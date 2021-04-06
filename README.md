@@ -5,7 +5,7 @@
 3. And a fan of the film [A Scanner Darkly](https://en.wikipedia.org/wiki/A_Scanner_Darkly_(film))
 
 I always wanted to do something in the general direction of helping dogs.
-This weekend i saw a clip from the movie A Scanner Drakly and decided to create this collection explained below.
+This weekend i saw a clip from the movie A Scanner Darkly and decided to create this collection explained below.
 All proceeds and royalties (if any :grin:) from this collection will go to a [Marin Humane](https://www.marinhumane.org/get-involved/ways-to-give/) or some other dog friends in Marin County.
 
 I was always intrigued by this [page](https://en.wikipedia.org/wiki/The_Intelligence_of_Dogs), which talks about 6 tiers of intelligence of the dogs based on a famous book.
