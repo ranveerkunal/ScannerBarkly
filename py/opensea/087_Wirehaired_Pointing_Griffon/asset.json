@@ -1,0 +1,197 @@
+{
+    "id": 21289326,
+    "token_id": "99665928122094451937521891460264653520586865111288640927117897014365564960769",
+    "num_sales": 0,
+    "background_color": null,
+    "image_url": "https://lh3.googleusercontent.com/JzIpPaA6nRPJqMRsw1YuhCAl2VVnfTDNojhL_4LJLZd6Q8iOTLntcaSP0DW7LjEvnNmTbB8rlpXOQi2sZjZAdIiKIp77xRLZjNQUvQ",
+    "image_preview_url": "https://lh3.googleusercontent.com/JzIpPaA6nRPJqMRsw1YuhCAl2VVnfTDNojhL_4LJLZd6Q8iOTLntcaSP0DW7LjEvnNmTbB8rlpXOQi2sZjZAdIiKIp77xRLZjNQUvQ=s250",
+    "image_thumbnail_url": "https://lh3.googleusercontent.com/JzIpPaA6nRPJqMRsw1YuhCAl2VVnfTDNojhL_4LJLZd6Q8iOTLntcaSP0DW7LjEvnNmTbB8rlpXOQi2sZjZAdIiKIp77xRLZjNQUvQ=s128",
+    "image_original_url": null,
+    "animation_url": null,
+    "animation_original_url": null,
+    "name": "Wirehaired Pointing Griffon",
+    "description": "```\n{\n    \"rank\": 87,\n    \"name\": \"Wirehaired Pointing Griffon\",\n    \"tier\": 3,\n    \"wiki\": \"/wiki/Wirehaired_Pointing_Griffon\",\n    \"img\": \"//upload.wikimedia.org/wikipedia/commons/thumb/8/87/GCH_Int_Ch_UCH_Zerubbabel_von_Herrenhausen_CGC_MHA.jpg/220px-GCH_Int_Ch_UCH_Zerubbabel_von_Herrenhausen_CGC_MHA.jpg\"\n}\n```",
+    "external_link": null,
+    "asset_contract": {
+        "address": "0x495f947276749ce646f68ac8c248420045cb7b5e",
+        "asset_contract_type": "semi-fungible",
+        "created_date": "2020-12-02T17:40:53.232025",
+        "name": "OpenSea Collection",
+        "nft_version": null,
+        "opensea_version": "2.0.0",
+        "owner": 102384,
+        "schema_name": "ERC1155",
+        "symbol": "OPENSTORE",
+        "total_supply": null,
+        "description": null,
+        "external_link": null,
+        "image_url": null,
+        "default_to_fiat": false,
+        "dev_buyer_fee_basis_points": 0,
+        "dev_seller_fee_basis_points": 0,
+        "only_proxied_transfers": false,
+        "opensea_buyer_fee_basis_points": 0,
+        "opensea_seller_fee_basis_points": 250,
+        "buyer_fee_basis_points": 0,
+        "seller_fee_basis_points": 250,
+        "payout_address": null
+    },
+    "owner": {
+        "user": {
+            "username": "NullAddress"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/1.png",
+        "address": "0x0000000000000000000000000000000000000000",
+        "config": "",
+        "discord_id": ""
+    },
+    "permalink": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/99665928122094451937521891460264653520586865111288640927117897014365564960769",
+    "collection": {
+        "banner_image_url": "https://lh3.googleusercontent.com/BZN2rPfCT866QpVw-vjiraQrLorMJLZ-uT_yHij_dEkOxUVbvDpy9wAtUdC-aoi7Gq4BYdTShefWPciEHdut6xY-WcWkgv5iVuPw=s2500",
+        "chat_url": null,
+        "created_date": "2021-04-05T00:25:53.277939",
+        "default_to_fiat": false,
+        "description": "**all proceeds and royalties will go to dog charities forever.** [code and the other details here](https://github.com/ranveerkunal/ScannerBarkly/blob/main/README.md)\n\n```\n{\n    \"name\": \"The Intelligence of Dogs\",\n    \"wiki\": \"/wiki/The_Intelligence_of_Dogs\",\n    \"img\": \"//upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Paw_and_pads.jpg/250px-Paw_and_pads.jpg\"\n}\n{\n    \"name\": \"A Scanner Darkly (film)\",\n    \"wiki\": \"/wiki/A_Scanner_Darkly_(film)\",\n    \"img\": \"//upload.wikimedia.org/wikipedia/en/7/75/A_Scanner_Darkly_Poster.jpg\"\n}\n\ndef price(rank):\n    return '{:0.4f}'.format(1/rank)\n```",
+        "dev_buyer_fee_basis_points": "0",
+        "dev_seller_fee_basis_points": "1000",
+        "discord_url": null,
+        "display_data": {
+            "card_display_style": "cover"
+        },
+        "external_url": "https://github.com/ranveerkunal/ScannerBarkly/blob/main/README.md",
+        "featured": false,
+        "featured_image_url": "https://lh3.googleusercontent.com/U8f6jqYJ4f1VS6xY25W7KVszlBO2NQyciCUlJHwoavgxAF_IGAK3my4eKwADJy2d_ubhUD9r2-9vsREZLnsN8hHrXZ8xN_p5un2f=s300",
+        "hidden": true,
+        "safelist_request_status": "not_requested",
+        "image_url": "https://lh3.googleusercontent.com/InHjNIf0cX_PghEL_Dkj41rupT7MOUAg1SA6g10OxrJBvKoRl5aPALfzFuD9EinsgsrH-_imrYvMzC5rVcOXB_aPSQm4-6aLuG7jiw=s120",
+        "is_subject_to_whitelist": false,
+        "large_image_url": "https://lh3.googleusercontent.com/U8f6jqYJ4f1VS6xY25W7KVszlBO2NQyciCUlJHwoavgxAF_IGAK3my4eKwADJy2d_ubhUD9r2-9vsREZLnsN8hHrXZ8xN_p5un2f=s300",
+        "medium_username": null,
+        "name": "ScannerBarkly",
+        "only_proxied_transfers": false,
+        "opensea_buyer_fee_basis_points": "0",
+        "opensea_seller_fee_basis_points": "250",
+        "payout_address": "0xdc58ea900b5fe2502947eea686c9a485d4a58684",
+        "require_email": false,
+        "short_description": null,
+        "slug": "scannerbarkly",
+        "telegram_url": null,
+        "twitter_username": null,
+        "instagram_username": null,
+        "wiki_url": null
+    },
+    "decimals": null,
+    "sell_orders": [
+        {
+            "created_date": "2021-04-06T00:16:24.068448",
+            "closing_date": null,
+            "closing_extendable": false,
+            "expiration_time": 0,
+            "listing_time": 1617668080,
+            "order_hash": "0xf3bf202caa6f1c5befc92387aa3fd48546dace4c4efff214a6cc9f27c68f2543",
+            "metadata": {
+                "asset": {
+                    "id": "99665928122094451937521891460264653520586865111288640927117897014365564960769",
+                    "address": "0x495f947276749ce646f68ac8c248420045cb7b5e",
+                    "quantity": "1"
+                },
+                "schema": "ERC1155"
+            },
+            "exchange": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+            "maker": {
+                "user": 563437,
+                "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/31.png",
+                "address": "0xdc58ea900b5fe2502947eea686c9a485d4a58684",
+                "config": "",
+                "discord_id": ""
+            },
+            "taker": {
+                "user": 1766,
+                "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/1.png",
+                "address": "0x0000000000000000000000000000000000000000",
+                "config": "",
+                "discord_id": ""
+            },
+            "current_price": "11500000000000000",
+            "current_bounty": "115000000000000",
+            "bounty_multiple": "0.01",
+            "maker_relayer_fee": "1250",
+            "taker_relayer_fee": "0",
+            "maker_protocol_fee": "0",
+            "taker_protocol_fee": "0",
+            "maker_referrer_fee": "0",
+            "fee_recipient": {
+                "user": 3585,
+                "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/28.png",
+                "address": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+                "config": "verified",
+                "discord_id": ""
+            },
+            "fee_method": 1,
+            "side": 1,
+            "sale_kind": 0,
+            "target": "0x495f947276749ce646f68ac8c248420045cb7b5e",
+            "how_to_call": 0,
+            "calldata": "0xf242432a000000000000000000000000dc58ea900b5fe2502947eea686c9a485d4a586840000000000000000000000000000000000000000000000000000000000000000dc58ea900b5fe2502947eea686c9a485d4a58684000000000000540000000001000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000",
+            "replacement_pattern": "0x000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "static_target": "0x0000000000000000000000000000000000000000",
+            "static_extradata": "0x",
+            "payment_token": "0x0000000000000000000000000000000000000000",
+            "payment_token_contract": {
+                "id": 1,
+                "symbol": "ETH",
+                "address": "0x0000000000000000000000000000000000000000",
+                "image_url": "https://lh3.googleusercontent.com/7hQyiGtBt8vmUTq4T0aIUhIhT00dPhnav87TuFQ5cLtjlk724JgXdjQjoH_CzYz-z37JpPuMFbRRQuyC7I9abyZRKA",
+                "name": "Ether",
+                "decimals": 18,
+                "eth_price": "1.000000000000000",
+                "usd_price": "2105.469999999999800000"
+            },
+            "base_price": "11500000000000000",
+            "extra": "0",
+            "quantity": "1",
+            "salt": "42537494647446997567524844929742029076177805518993412192210282610588400414028",
+            "v": 28,
+            "r": "0x5860588502d0434e5e5a9b8f02b9bfb175cca69b43f3249268fab6021ad7e47d",
+            "s": "0x6185dfe408a9dcbf5db3c24bd9e5b4f3702988a64a1fe015f2ce972a0ee8f2e6",
+            "approved_on_chain": false,
+            "cancelled": false,
+            "finalized": false,
+            "marked_invalid": false,
+            "prefixed_hash": "0x2fa3c63b5bea63a6619e3ebafc79a6ccb808e49b497ca2902d6e2fb065b3bc43"
+        }
+    ],
+    "creator": {
+        "user": {
+            "username": "ScannerBarkly"
+        },
+        "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/31.png",
+        "address": "0xdc58ea900b5fe2502947eea686c9a485d4a58684",
+        "config": "",
+        "discord_id": ""
+    },
+    "traits": [
+        {
+            "trait_type": "rank",
+            "value": "87",
+            "display_type": null,
+            "max_value": null,
+            "trait_count": 1,
+            "order": null
+        },
+        {
+            "trait_type": "tier",
+            "value": "3:yellow:#E5ED3C",
+            "display_type": null,
+            "max_value": null,
+            "trait_count": 40,
+            "order": null
+        }
+    ],
+    "last_sale": null,
+    "top_bid": null,
+    "listing_date": null,
+    "is_presale": true,
+    "transfer_fee_payment_token": null,
+    "transfer_fee": null
+}
