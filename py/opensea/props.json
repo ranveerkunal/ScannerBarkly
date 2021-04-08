@@ -1,0 +1,1058 @@
+{
+    "73": {
+        "fname": "073_Cavalier_King_Charles_Spaniel",
+        "bgr": [
+            88,
+            88,
+            82
+        ]
+    },
+    "138": {
+        "fname": "138_Afghan_Hound",
+        "bgr": [
+            165,
+            176,
+            190
+        ]
+    },
+    "137": {
+        "fname": "137_Basenji",
+        "bgr": [
+            10,
+            40,
+            95
+        ]
+    },
+    "136": {
+        "fname": "136_Bulldog",
+        "bgr": [
+            12,
+            20,
+            19
+        ]
+    },
+    "135": {
+        "fname": "135_Chow_Chow",
+        "bgr": [
+            121,
+            149,
+            166
+        ]
+    },
+    "134": {
+        "fname": "134_Borzoi",
+        "bgr": [
+            48,
+            78,
+            79
+        ]
+    },
+    "133": {
+        "fname": "133_Bloodhound",
+        "bgr": [
+            103,
+            52,
+            19
+        ]
+    },
+    "132": {
+        "fname": "132_Pekingese",
+        "bgr": [
+            71,
+            93,
+            118
+        ]
+    },
+    "131": {
+        "fname": "131_Beagle",
+        "bgr": [
+            108,
+            140,
+            169
+        ]
+    },
+    "129": {
+        "fname": "129_Basset_Hound",
+        "bgr": [
+            12,
+            43,
+            112
+        ]
+    },
+    "128": {
+        "fname": "128_Shih_Tzu",
+        "bgr": [
+            78,
+            22,
+            181
+        ]
+    },
+    "127": {
+        "fname": "127_Bullmastiff",
+        "bgr": [
+            65,
+            79,
+            85
+        ]
+    },
+    "126": {
+        "fname": "126_Lhasa_Apso",
+        "bgr": [
+            181,
+            150,
+            183
+        ]
+    },
+    "125": {
+        "fname": "125_Chihuahua_(dog)",
+        "bgr": [
+            124,
+            161,
+            205
+        ]
+    },
+    "124": {
+        "fname": "124_Bull_Terrier",
+        "bgr": [
+            175,
+            172,
+            168
+        ]
+    },
+    "123": {
+        "fname": "123_St._Bernard_(dog)",
+        "bgr": [
+            200,
+            198,
+            197
+        ]
+    },
+    "122": {
+        "fname": "122_Scottish_Terrier",
+        "bgr": [
+            197,
+            209,
+            219
+        ]
+    },
+    "121": {
+        "fname": "121_Pyrenean_Mountain_Dog",
+        "bgr": [
+            40,
+            100,
+            69
+        ]
+    },
+    "120": {
+        "fname": "120_Old_English_Sheepdog",
+        "bgr": [
+            13,
+            14,
+            18
+        ]
+    },
+    "119": {
+        "fname": "119_Lakeland_Terrier",
+        "bgr": [
+            155,
+            208,
+            221
+        ]
+    },
+    "118": {
+        "fname": "118_Japanese_Chin",
+        "bgr": [
+            129,
+            124,
+            125
+        ]
+    },
+    "117": {
+        "fname": "117_Tibetan_Terrier",
+        "bgr": [
+            17,
+            18,
+            16
+        ]
+    },
+    "116": {
+        "fname": "116_Petit_Basset_Griffon_Vend\u00e9en",
+        "bgr": [
+            36,
+            37,
+            35
+        ]
+    },
+    "115": {
+        "fname": "115_Dandie_Dinmont_Terrier",
+        "bgr": [
+            47,
+            56,
+            60
+        ]
+    },
+    "114": {
+        "fname": "114_Chinese_Crested_Dog",
+        "bgr": [
+            142,
+            149,
+            146
+        ]
+    },
+    "113": {
+        "fname": "113_Coton_de_Tulear",
+        "bgr": [
+            6,
+            24,
+            1
+        ]
+    },
+    "112": {
+        "fname": "112_Italian_Greyhound",
+        "bgr": [
+            214,
+            220,
+            227
+        ]
+    },
+    "111": {
+        "fname": "111_Maltese_dog",
+        "bgr": [
+            162,
+            110,
+            80
+        ]
+    },
+    "110": {
+        "fname": "110_Griffon_Bruxellois",
+        "bgr": [
+            3,
+            22,
+            43
+        ]
+    },
+    "109": {
+        "fname": "109_French_Bulldog",
+        "bgr": [
+            214,
+            218,
+            223
+        ]
+    },
+    "108": {
+        "fname": "108_Pug",
+        "bgr": [
+            109,
+            133,
+            157
+        ]
+    },
+    "107": {
+        "fname": "107_Sealyham_Terrier",
+        "bgr": [
+            13,
+            18,
+            19
+        ]
+    },
+    "106": {
+        "fname": "106_Norfolk_Terrier",
+        "bgr": [
+            92,
+            71,
+            56
+        ]
+    },
+    "105": {
+        "fname": "105_Skye_Terrier",
+        "bgr": [
+            131,
+            132,
+            130
+        ]
+    },
+    "104": {
+        "fname": "104_Akita_(dog)",
+        "bgr": [
+            108,
+            114,
+            125
+        ]
+    },
+    "103": {
+        "fname": "103_Boston_Terrier",
+        "bgr": [
+            88,
+            85,
+            81
+        ]
+    },
+    "102": {
+        "fname": "102_Irish_Terrier",
+        "bgr": [
+            114,
+            176,
+            162
+        ]
+    },
+    "101": {
+        "fname": "101_Welsh_Terrier",
+        "bgr": [
+            245,
+            209,
+            171
+        ]
+    },
+    "100": {
+        "fname": "100_Ibizan_Hound",
+        "bgr": [
+            66,
+            78,
+            150
+        ]
+    },
+    "99": {
+        "fname": "099_Rhodesian_Ridgeback",
+        "bgr": [
+            129,
+            154,
+            186
+        ]
+    },
+    "98": {
+        "fname": "098_Wire_Fox_Terrier",
+        "bgr": [
+            9,
+            56,
+            23
+        ]
+    },
+    "97": {
+        "fname": "097_Shar_Pei",
+        "bgr": [
+            137,
+            240,
+            232
+        ]
+    },
+    "96": {
+        "fname": "096_Whippet",
+        "bgr": [
+            14,
+            23,
+            20
+        ]
+    },
+    "95": {
+        "fname": "095_Alaskan_Malamute",
+        "bgr": [
+            149,
+            174,
+            176
+        ]
+    },
+    "94": {
+        "fname": "094_Staffordshire_Bull_Terrier",
+        "bgr": [
+            68,
+            74,
+            81
+        ]
+    },
+    "93": {
+        "fname": "093_Shiba_Inu",
+        "bgr": [
+            91,
+            99,
+            99
+        ]
+    },
+    "92": {
+        "fname": "092_Dachshund",
+        "bgr": [
+            205,
+            170,
+            136
+        ]
+    },
+    "91": {
+        "fname": "091_Great_Dane",
+        "bgr": [
+            16,
+            15,
+            77
+        ]
+    },
+    "90": {
+        "fname": "090_Boxer_(dog)",
+        "bgr": [
+            21,
+            46,
+            90
+        ]
+    },
+    "89": {
+        "fname": "089_Scottish_Deerhound",
+        "bgr": [
+            95,
+            136,
+            185
+        ]
+    },
+    "88": {
+        "fname": "088_West_Highland_White_Terrier",
+        "bgr": [
+            200,
+            201,
+            199
+        ]
+    },
+    "87": {
+        "fname": "087_Wirehaired_Pointing_Griffon",
+        "bgr": [
+            30,
+            65,
+            25
+        ]
+    },
+    "86": {
+        "fname": "086_Greyhound",
+        "bgr": [
+            160,
+            159,
+            149
+        ]
+    },
+    "85": {
+        "fname": "085_American_Foxhound",
+        "bgr": [
+            61,
+            52,
+            55
+        ]
+    },
+    "84": {
+        "fname": "084_Jack_Russell_Terrier",
+        "bgr": [
+            69,
+            84,
+            110
+        ]
+    },
+    "83": {
+        "fname": "083_Otterhound",
+        "bgr": [
+            89,
+            140,
+            126
+        ]
+    },
+    "82": {
+        "fname": "082_English_Foxhound",
+        "bgr": [
+            195,
+            204,
+            207
+        ]
+    },
+    "81": {
+        "fname": "081_Tibetan_spaniel",
+        "bgr": [
+            62,
+            78,
+            77
+        ]
+    },
+    "80": {
+        "fname": "080_King_Charles_Spaniel",
+        "bgr": [
+            115,
+            150,
+            194
+        ]
+    },
+    "79": {
+        "fname": "079_Havanese_dog",
+        "bgr": [
+            7,
+            39,
+            114
+        ]
+    },
+    "78": {
+        "fname": "078_Bichon_Frise",
+        "bgr": [
+            26,
+            27,
+            25
+        ]
+    },
+    "77": {
+        "fname": "077_Siberian_Husky",
+        "bgr": [
+            242,
+            243,
+            247
+        ]
+    },
+    "76": {
+        "fname": "076_American_Water_Spaniel",
+        "bgr": [
+            232,
+            246,
+            240
+        ]
+    },
+    "75": {
+        "fname": "075_Black_and_Tan_Coonhound",
+        "bgr": [
+            96,
+            136,
+            134
+        ]
+    },
+    "74": {
+        "fname": "074_German_Wirehaired_Pointer",
+        "bgr": [
+            221,
+            224,
+            222
+        ]
+    },
+    "71": {
+        "fname": "071_Finnish_Spitz",
+        "bgr": [
+            99,
+            147,
+            189
+        ]
+    },
+    "70": {
+        "fname": "070_Saluki",
+        "bgr": [
+            81,
+            115,
+            181
+        ]
+    },
+    "68": {
+        "fname": "068_Kuvasz",
+        "bgr": [
+            143,
+            151,
+            151
+        ]
+    },
+    "67": {
+        "fname": "067_Irish_wolfhound",
+        "bgr": [
+            236,
+            234,
+            224
+        ]
+    },
+    "66": {
+        "fname": "066_Curly-coated_Retriever",
+        "bgr": [
+            176,
+            150,
+            133
+        ]
+    },
+    "65": {
+        "fname": "065_Smooth_Fox_Terrier",
+        "bgr": [
+            125,
+            153,
+            140
+        ]
+    },
+    "64": {
+        "fname": "064_Bedlington_Terrier",
+        "bgr": [
+            103,
+            143,
+            141
+        ]
+    },
+    "63": {
+        "fname": "063_Soft-coated_Wheaten_Terrier",
+        "bgr": [
+            63,
+            56,
+            53
+        ]
+    },
+    "62": {
+        "fname": "062_Dalmatian_(dog)",
+        "bgr": [
+            19,
+            27,
+            50
+        ]
+    },
+    "61": {
+        "fname": "061_Norwich_Terrier",
+        "bgr": [
+            43,
+            111,
+            80
+        ]
+    },
+    "60": {
+        "fname": "060_Clumber_Spaniel",
+        "bgr": [
+            156,
+            176,
+            117
+        ]
+    },
+    "59": {
+        "fname": "059_Pharaoh_Hound",
+        "bgr": [
+            15,
+            48,
+            111
+        ]
+    },
+    "58": {
+        "fname": "058_English_Setter",
+        "bgr": [
+            75,
+            55,
+            50
+        ]
+    },
+    "57": {
+        "fname": "057_Miniature_Pinscher",
+        "bgr": [
+            56,
+            55,
+            57
+        ]
+    },
+    "56": {
+        "fname": "056_Australian_Silky_Terrier",
+        "bgr": [
+            23,
+            69,
+            110
+        ]
+    },
+    "55": {
+        "fname": "055_Affenpinscher",
+        "bgr": [
+            86,
+            87,
+            85
+        ]
+    },
+    "54": {
+        "fname": "054_Norwegian_Elkhound",
+        "bgr": [
+            37,
+            36,
+            26
+        ]
+    },
+    "53": {
+        "fname": "053_Irish_Setter",
+        "bgr": [
+            115,
+            161,
+            108
+        ]
+    },
+    "52": {
+        "fname": "052_Kerry_Blue_Terrier",
+        "bgr": [
+            124,
+            123,
+            125
+        ]
+    },
+    "51": {
+        "fname": "051_Cairn_Terrier",
+        "bgr": [
+            70,
+            126,
+            91
+        ]
+    },
+    "42": {
+        "fname": "042_Australian_Shepherd",
+        "bgr": [
+            133,
+            159,
+            173
+        ]
+    },
+    "50": {
+        "fname": "050_Bearded_Collie",
+        "bgr": [
+            242,
+            246,
+            240
+        ]
+    },
+    "49": {
+        "fname": "049_Gordon_Setter",
+        "bgr": [
+            218,
+            222,
+            216
+        ]
+    },
+    "48": {
+        "fname": "048_American_Staffordshire_Terrier",
+        "bgr": [
+            38,
+            53,
+            86
+        ]
+    },
+    "47": {
+        "fname": "047_Australian_Terrier",
+        "bgr": [
+            171,
+            83,
+            29
+        ]
+    },
+    "46": {
+        "fname": "046_Newfoundland_dog",
+        "bgr": [
+            69,
+            114,
+            171
+        ]
+    },
+    "45": {
+        "fname": "045_Field_Spaniel",
+        "bgr": [
+            197,
+            227,
+            246
+        ]
+    },
+    "44": {
+        "fname": "044_Samoyed_dog",
+        "bgr": [
+            225,
+            220,
+            219
+        ]
+    },
+    "43": {
+        "fname": "043_Manchester_Terrier",
+        "bgr": [
+            74,
+            90,
+            102
+        ]
+    },
+    "41": {
+        "fname": "041_Welsh_Springer_Spaniel",
+        "bgr": [
+            58,
+            68,
+            86
+        ]
+    },
+    "40": {
+        "fname": "040_Briard",
+        "bgr": [
+            189,
+            181,
+            181
+        ]
+    },
+    "39": {
+        "fname": "039_Border_Terrier",
+        "bgr": [
+            117,
+            159,
+            164
+        ]
+    },
+    "38": {
+        "fname": "038_Bouvier_des_Flandres",
+        "bgr": [
+            98,
+            123,
+            125
+        ]
+    },
+    "37": {
+        "fname": "037_Airedale_Terrier",
+        "bgr": [
+            78,
+            122,
+            175
+        ]
+    },
+    "36": {
+        "fname": "036_Portuguese_Water_Dog",
+        "bgr": [
+            235,
+            231,
+            236
+        ]
+    },
+    "35": {
+        "fname": "035_Giant_Schnauzer",
+        "bgr": [
+            138,
+            142,
+            131
+        ]
+    },
+    "34": {
+        "fname": "034_Yorkshire_Terrier",
+        "bgr": [
+            68,
+            35,
+            26
+        ]
+    },
+    "33": {
+        "fname": "033_Puli_dog",
+        "bgr": [
+            143,
+            70,
+            232
+        ]
+    },
+    "32": {
+        "fname": "032_Chesapeake_Bay_Retriever",
+        "bgr": [
+            134,
+            223,
+            233
+        ]
+    },
+    "31": {
+        "fname": "031_Cardigan_Welsh_Corgi",
+        "bgr": [
+            100,
+            133,
+            189
+        ]
+    },
+    "30": {
+        "fname": "030_Vizsla",
+        "bgr": [
+            187,
+            224,
+            238
+        ]
+    },
+    "29": {
+        "fname": "029_Irish_Water_Spaniel",
+        "bgr": [
+            177,
+            245,
+            244
+        ]
+    },
+    "28": {
+        "fname": "028_Pomeranian_dog",
+        "bgr": [
+            34,
+            81,
+            142
+        ]
+    },
+    "27": {
+        "fname": "027_Bernese_Mountain_Dog",
+        "bgr": [
+            162,
+            231,
+            186
+        ]
+    },
+    "25": {
+        "fname": "025_Weimaraner",
+        "bgr": [
+            76,
+            105,
+            114
+        ]
+    },
+    "24": {
+        "fname": "024_Cocker_Spaniel",
+        "bgr": [
+            117,
+            125,
+            125
+        ]
+    },
+    "23": {
+        "fname": "023_Brittany_(dog)",
+        "bgr": [
+            199,
+            185,
+            167
+        ]
+    },
+    "22": {
+        "fname": "022_Standard_Schnauzer",
+        "bgr": [
+            171,
+            185,
+            174
+        ]
+    },
+    "21": {
+        "fname": "021_English_Cocker_Spaniel",
+        "bgr": [
+            196,
+            239,
+            242
+        ]
+    },
+    "20": {
+        "fname": "020_Flat-coated_Retriever",
+        "bgr": [
+            170,
+            172,
+            172
+        ]
+    },
+    "19": {
+        "fname": "019_German_Shorthaired_Pointer",
+        "bgr": [
+            206,
+            235,
+            242
+        ]
+    },
+    "18": {
+        "fname": "018_Keeshond",
+        "bgr": [
+            85,
+            127,
+            109
+        ]
+    },
+    "15": {
+        "fname": "015_Schipperke",
+        "bgr": [
+            52,
+            68,
+            74
+        ]
+    },
+    "14": {
+        "fname": "014_Belgian_Shepherd",
+        "bgr": [
+            143,
+            243,
+            247
+        ]
+    },
+    "13": {
+        "fname": "013_English_Springer_Spaniel",
+        "bgr": [
+            136,
+            136,
+            150
+        ]
+    },
+    "12": {
+        "fname": "012_Miniature_Schnauzer",
+        "bgr": [
+            79,
+            88,
+            101
+        ]
+    },
+    "11": {
+        "fname": "011_Pembroke_Welsh_Corgi",
+        "bgr": [
+            49,
+            70,
+            138
+        ]
+    },
+    "10": {
+        "fname": "010_Australian_Cattle_Dog",
+        "bgr": [
+            15,
+            42,
+            76
+        ]
+    },
+    "9": {
+        "fname": "009_Rottweiler",
+        "bgr": [
+            95,
+            111,
+            118
+        ]
+    },
+    "8": {
+        "fname": "008_Papillon_dog",
+        "bgr": [
+            58,
+            123,
+            168
+        ]
+    },
+    "7": {
+        "fname": "007_Labrador_Retriever",
+        "bgr": [
+            20,
+            36,
+            42
+        ]
+    },
+    "6": {
+        "fname": "006_Shetland_Sheepdog",
+        "bgr": [
+            33,
+            34,
+            30
+        ]
+    },
+    "5": {
+        "fname": "005_Dobermann",
+        "bgr": [
+            35,
+            46,
+            60
+        ]
+    },
+    "4": {
+        "fname": "004_Golden_Retriever",
+        "bgr": [
+            13,
+            22,
+            36
+        ]
+    },
+    "3": {
+        "fname": "003_German_Shepherd",
+        "bgr": [
+            100,
+            124,
+            144
+        ]
+    },
+    "2": {
+        "fname": "002_Poodle",
+        "bgr": [
+            174,
+            190,
+            189
+        ]
+    },
+    "1": {
+        "fname": "001_Border_Collie",
+        "bgr": [
+            85,
+            92,
+            107
+        ]
+    }
+}
