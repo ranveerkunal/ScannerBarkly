@@ -2,17 +2,17 @@
     "primary_asset_contracts": [],
     "traits": {},
     "stats": {
-        "seven_day_volume": 0.6513,
-        "total_volume": 0.6513,
+        "seven_day_volume": 0.6619,
+        "total_volume": 0.6619,
         "seven_day_change": 0.0,
-        "seven_day_sales": 7.0,
-        "total_sales": 7.0,
+        "seven_day_sales": 8.0,
+        "total_sales": 8.0,
         "total_supply": 132.0,
         "count": 132.0,
-        "num_owners": 8,
-        "seven_day_average_price": 0.09304285714285714,
-        "average_price": 0.09304285714285714,
-        "market_cap": 12.281657142857142
+        "num_owners": 9,
+        "seven_day_average_price": 0.0827375,
+        "average_price": 0.0827375,
+        "market_cap": 10.92135
     },
     "banner_image_url": "https://lh3.googleusercontent.com/BZN2rPfCT866QpVw-vjiraQrLorMJLZ-uT_yHij_dEkOxUVbvDpy9wAtUdC-aoi7Gq4BYdTShefWPciEHdut6xY-WcWkgv5iVuPw=s2500",
     "chat_url": null,
@@ -30,7 +30,7 @@
     "featured_image_url": "https://lh3.googleusercontent.com/U8f6jqYJ4f1VS6xY25W7KVszlBO2NQyciCUlJHwoavgxAF_IGAK3my4eKwADJy2d_ubhUD9r2-9vsREZLnsN8hHrXZ8xN_p5un2f=s300",
     "hidden": true,
     "safelist_request_status": "not_requested",
-    "image_url": "https://lh3.googleusercontent.com/InHjNIf0cX_PghEL_Dkj41rupT7MOUAg1SA6g10OxrJBvKoRl5aPALfzFuD9EinsgsrH-_imrYvMzC5rVcOXB_aPSQm4-6aLuG7jiw=s120",
+    "image_url": "https://lh3.googleusercontent.com/WP8zAL03U1cbCXVGRahJGhM535kxUtRbmF7fJXPT_OlBGP1OUwdOPVFdgvR_Bmqm8ES2TY3z2tsTL4HRh_nizo96--tofRMi2TE_eg=s120",
     "is_subject_to_whitelist": false,
     "large_image_url": "https://lh3.googleusercontent.com/U8f6jqYJ4f1VS6xY25W7KVszlBO2NQyciCUlJHwoavgxAF_IGAK3my4eKwADJy2d_ubhUD9r2-9vsREZLnsN8hHrXZ8xN_p5un2f=s300",
     "medium_username": null,
@@ -46,5 +46,5 @@
     "twitter_username": null,
     "instagram_username": null,
     "wiki_url": null,
-    "owned_asset_count": 127
+    "owned_asset_count": 126
 }
