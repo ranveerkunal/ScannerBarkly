@@ -1,7 +1,7 @@
 # [ScannerBarkly](https://opensea.io/collection/scannerbarkly)
 
 1. As proud father of [Blue](https://raw.githubusercontent.com/ranveerkunal/ScannerDarkly/main/blue.jpeg)
-2. As proud owner of [CryptoPunk 2074](https://www.larvalabs.com/cryptopunks/details/2074)
+2. As a fan of [CryptoPunk 2074](https://www.larvalabs.com/cryptopunks)
 3. And a fan of the film [A Scanner Darkly](https://en.wikipedia.org/wiki/A_Scanner_Darkly_(film))
 
 I always wanted to do something in the general direction of helping dogs.
