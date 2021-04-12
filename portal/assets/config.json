@@ -1,1 +1,2455 @@
-py/config.json
+{
+    "contract": "0x495f947276749ce646f68ac8c248420045cb7b5e",
+    "slug": "scannerbarkly",
+    "tiles": [
+        {
+            "rank": 1,
+            "name": "Border Collie",
+            "tier": 6,
+            "wiki": "/wiki/Border_collie",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BORDER_COLLIE%2C_Simaro_Million_Dollar_Baby_%2824290879465%29_2.jpg/220px-BORDER_COLLIE%2C_Simaro_Million_Dollar_Baby_%2824290879465%29_2.jpg",
+            "id": [
+                21274829,
+                "99665928122094451937521891460264653520586865111288640927117896924205611483137",
+                "Border Collie"
+            ],
+            "fname": "001_Border_Collie",
+            "bgr": [
+                85,
+                92,
+                107
+            ]
+        },
+        {
+            "rank": 2,
+            "name": "Poodle",
+            "tier": 6,
+            "wiki": "/wiki/Poodle",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Full_attention_%288067543690%29.jpg/220px-Full_attention_%288067543690%29.jpg",
+            "id": [
+                21275631,
+                "99665928122094451937521891460264653520586865111288640927117896925305123110913",
+                "Poodle"
+            ],
+            "fname": "002_Poodle",
+            "bgr": [
+                174,
+                190,
+                189
+            ]
+        },
+        {
+            "rank": 3,
+            "name": "German Shepherd",
+            "tier": 6,
+            "wiki": "/wiki/German_Shepherd",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d0/German_Shepherd_-_DSC_0346_%2810096362833%29.jpg/220px-German_Shepherd_-_DSC_0346_%2810096362833%29.jpg",
+            "id": [
+                21275903,
+                "99665928122094451937521891460264653520586865111288640927117896926404634738689",
+                "German Shepherd"
+            ],
+            "fname": "003_German_Shepherd",
+            "bgr": [
+                100,
+                124,
+                144
+            ]
+        },
+        {
+            "rank": 4,
+            "name": "Golden Retriever",
+            "tier": 6,
+            "wiki": "/wiki/Golden_retriever",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/93/Golden_Retriever_Carlos_%2810581910556%29.jpg/220px-Golden_Retriever_Carlos_%2810581910556%29.jpg",
+            "id": [
+                21276408,
+                "99665928122094451937521891460264653520586865111288640927117896927504146366465",
+                "Golden Retriever"
+            ],
+            "fname": "004_Golden_Retriever",
+            "bgr": [
+                13,
+                22,
+                36
+            ]
+        },
+        {
+            "rank": 5,
+            "name": "Dobermann",
+            "tier": 6,
+            "wiki": "/wiki/Doberman_Pinscher",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Dobermann_handling.jpg/220px-Dobermann_handling.jpg",
+            "id": [
+                21276535,
+                "99665928122094451937521891460264653520586865111288640927117896928603657994241",
+                "Dobermann"
+            ],
+            "fname": "005_Dobermann",
+            "bgr": [
+                35,
+                46,
+                60
+            ]
+        },
+        {
+            "rank": 6,
+            "name": "Shetland Sheepdog",
+            "tier": 6,
+            "wiki": "/wiki/Shetland_Sheepdog",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Shetland_Sheepdog_600.jpg/220px-Shetland_Sheepdog_600.jpg",
+            "id": [
+                21276661,
+                "99665928122094451937521891460264653520586865111288640927117896930802681249793",
+                "Shetland Sheepdog"
+            ],
+            "fname": "006_Shetland_Sheepdog",
+            "bgr": [
+                33,
+                34,
+                30
+            ]
+        },
+        {
+            "rank": 7,
+            "name": "Labrador Retriever",
+            "tier": 6,
+            "wiki": "/wiki/Labrador_Retriever",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/3/34/Labrador_on_Quantock_%282175262184%29.jpg/220px-Labrador_on_Quantock_%282175262184%29.jpg",
+            "id": [
+                21276703,
+                "99665928122094451937521891460264653520586865111288640927117896931902192877569",
+                "Labrador Retriever"
+            ],
+            "fname": "007_Labrador_Retriever",
+            "bgr": [
+                20,
+                36,
+                42
+            ]
+        },
+        {
+            "rank": 8,
+            "name": "Papillon dog",
+            "tier": 6,
+            "wiki": "/wiki/Papillon_(dog)",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RileyPapillon.JPG/220px-RileyPapillon.JPG",
+            "id": [
+                21276783,
+                "99665928122094451937521891460264653520586865111288640927117896933001704505345",
+                "Papillon dog"
+            ],
+            "fname": "008_Papillon_dog",
+            "bgr": [
+                58,
+                123,
+                168
+            ]
+        },
+        {
+            "rank": 9,
+            "name": "Rottweiler",
+            "tier": 6,
+            "wiki": "/wiki/Rottweiler",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/26/Rottweiler_standing_facing_left.jpg/220px-Rottweiler_standing_facing_left.jpg",
+            "id": [
+                21276823,
+                "99665928122094451937521891460264653520586865111288640927117896934101216133121",
+                "Rottweiler"
+            ],
+            "fname": "009_Rottweiler",
+            "bgr": [
+                95,
+                111,
+                118
+            ]
+        },
+        {
+            "rank": 10,
+            "name": "Australian Cattle Dog",
+            "tier": 6,
+            "wiki": "/wiki/Australian_Cattle_Dog",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cc/ACD-blue-spud.jpg/220px-ACD-blue-spud.jpg",
+            "id": [
+                21276930,
+                "99665928122094451937521891460264653520586865111288640927117896935200727760897",
+                "Australian Cattle Dog"
+            ],
+            "fname": "010_Australian_Cattle_Dog",
+            "bgr": [
+                15,
+                42,
+                76
+            ]
+        },
+        {
+            "rank": 11,
+            "name": "Pembroke Welsh Corgi",
+            "tier": 5,
+            "wiki": "/wiki/Pembroke_Welsh_Corgi",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Welchcorgipembroke.JPG/220px-Welchcorgipembroke.JPG",
+            "id": [
+                21277256,
+                "99665928122094451937521891460264653520586865111288640927117896936300239388673",
+                "Pembroke Welsh Corgi"
+            ],
+            "fname": "011_Pembroke_Welsh_Corgi",
+            "bgr": [
+                49,
+                70,
+                138
+            ]
+        },
+        {
+            "rank": 12,
+            "name": "Miniature Schnauzer",
+            "tier": 5,
+            "wiki": "/wiki/Miniature_Schnauzer",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/%D0%A6%D0%B2%D0%B5%D1%80%D0%B3%D1%88%D0%BD%D0%B0%D1%83%D1%86%D0%B5%D1%80_%D0%BE%D0%BA%D1%80%D0%B0%D1%81_%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D1%81_%D1%81%D0%B5%D1%80%D0%B5%D0%B1%D1%80%D0%BE%D0%BC.JPG/275px-%D0%A6%D0%B2%D0%B5%D1%80%D0%B3%D1%88%D0%BD%D0%B0%D1%83%D1%86%D0%B5%D1%80_%D0%BE%D0%BA%D1%80%D0%B0%D1%81_%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D1%81_%D1%81%D0%B5%D1%80%D0%B5%D0%B1%D1%80%D0%BE%D0%BC.JPG",
+            "id": [
+                21277328,
+                "99665928122094451937521891460264653520586865111288640927117896937399751016449",
+                "Miniature Schnauzer"
+            ],
+            "fname": "012_Miniature_Schnauzer",
+            "bgr": [
+                79,
+                88,
+                101
+            ]
+        },
+        {
+            "rank": 13,
+            "name": "English Springer Spaniel",
+            "tier": 5,
+            "wiki": "/wiki/English_Springer_Spaniel",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/English_Springer_Spaniel_in_Tallinn.JPG/220px-English_Springer_Spaniel_in_Tallinn.JPG",
+            "id": [
+                21277414,
+                "99665928122094451937521891460264653520586865111288640927117896938499262644225",
+                "English Springer Spaniel"
+            ],
+            "fname": "013_English_Springer_Spaniel",
+            "bgr": [
+                136,
+                136,
+                150
+            ]
+        },
+        {
+            "rank": 14,
+            "name": "Belgian Shepherd",
+            "tier": 5,
+            "wiki": "/wiki/Belgian_Shepherd_Dog_(Tervuren)",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/04_-_Belgian_shepherd_dog_varieties_-_Groenendael%2CTervuren%2C_Malinois%2C_Laekenois.jpg/220px-04_-_Belgian_shepherd_dog_varieties_-_Groenendael%2CTervuren%2C_Malinois%2C_Laekenois.jpg",
+            "id": [
+                21277548,
+                "99665928122094451937521891460264653520586865111288640927117896939598774272001",
+                "Belgian Shepherd"
+            ],
+            "fname": "014_Belgian_Shepherd",
+            "bgr": [
+                143,
+                243,
+                247
+            ]
+        },
+        {
+            "rank": 15,
+            "name": "Schipperke",
+            "tier": 5,
+            "wiki": "/wiki/Schipperke",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/5/58/Schipperke0001.jpg/220px-Schipperke0001.jpg",
+            "id": [
+                21277723,
+                "99665928122094451937521891460264653520586865111288640927117896940698285899777",
+                "Schipperke"
+            ],
+            "fname": "015_Schipperke",
+            "bgr": [
+                52,
+                68,
+                74
+            ]
+        },
+        {
+            "rank": 18,
+            "name": "Keeshond",
+            "tier": 5,
+            "wiki": "/wiki/Keeshond",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/26/Keeshond_Majic_standing_cropped.jpg/220px-Keeshond_Majic_standing_cropped.jpg",
+            "id": [
+                21278390,
+                "99665928122094451937521891460264653520586865111288640927117896941797797527553",
+                "Keeshond"
+            ],
+            "fname": "018_Keeshond",
+            "bgr": [
+                85,
+                127,
+                109
+            ]
+        },
+        {
+            "rank": 19,
+            "name": "German Shorthaired Pointer",
+            "tier": 5,
+            "wiki": "/wiki/German_Shorthaired_Pointer",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Duitse_staande_korthaar_10-10-2.jpg/220px-Duitse_staande_korthaar_10-10-2.jpg",
+            "id": [
+                21278491,
+                "99665928122094451937521891460264653520586865111288640927117896942897309155329",
+                "German Shorthaired Pointer"
+            ],
+            "fname": "019_German_Shorthaired_Pointer",
+            "bgr": [
+                206,
+                235,
+                242
+            ]
+        },
+        {
+            "rank": 20,
+            "name": "Flat-coated Retriever",
+            "tier": 5,
+            "wiki": "/wiki/Flat-Coated_Retriever",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flat_Coated_Retriever_-_black.jpg/220px-Flat_Coated_Retriever_-_black.jpg",
+            "id": [
+                21278586,
+                "99665928122094451937521891460264653520586865111288640927117896943996820783105",
+                "Flat-coated Retriever"
+            ],
+            "fname": "020_Flat-coated_Retriever",
+            "bgr": [
+                170,
+                172,
+                172
+            ]
+        },
+        {
+            "rank": 21,
+            "name": "English Cocker Spaniel",
+            "tier": 5,
+            "wiki": "/wiki/English_Cocker_Spaniel",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/7/70/EnglishCockerSpaniel_simon.jpg/220px-EnglishCockerSpaniel_simon.jpg",
+            "id": [
+                21278682,
+                "99665928122094451937521891460264653520586865111288640927117896945096332410881",
+                "English Cocker Spaniel"
+            ],
+            "fname": "021_English_Cocker_Spaniel",
+            "bgr": [
+                196,
+                239,
+                242
+            ]
+        },
+        {
+            "rank": 22,
+            "name": "Standard Schnauzer",
+            "tier": 5,
+            "wiki": "/wiki/Standard_Schnauzer",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Emppumenossa.jpg/220px-Emppumenossa.jpg",
+            "id": [
+                21278805,
+                "99665928122094451937521891460264653520586865111288640927117896946195844038657",
+                "Standard Schnauzer"
+            ],
+            "fname": "022_Standard_Schnauzer",
+            "bgr": [
+                171,
+                185,
+                174
+            ]
+        },
+        {
+            "rank": 23,
+            "name": "Brittany (dog)",
+            "tier": 5,
+            "wiki": "/wiki/Brittany_dog",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/American_Brittany_standing.jpg/220px-American_Brittany_standing.jpg",
+            "id": [
+                21278847,
+                "99665928122094451937521891460264653520586865111288640927117896947295355666433",
+                "Brittany"
+            ],
+            "fname": "023_Brittany_(dog)",
+            "bgr": [
+                199,
+                185,
+                167
+            ]
+        },
+        {
+            "rank": 24,
+            "name": "Cocker Spaniel",
+            "tier": 5,
+            "wiki": "/wiki/Cocker_Spaniel",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Gessa_d%27Aran_Copo_de_Nieve-_arancio_roano-_prop.Kalesa.jpg/220px-Gessa_d%27Aran_Copo_de_Nieve-_arancio_roano-_prop.Kalesa.jpg",
+            "id": [
+                21278954,
+                "99665928122094451937521891460264653520586865111288640927117896948394867294209",
+                "Cocker Spaniel"
+            ],
+            "fname": "024_Cocker_Spaniel",
+            "bgr": [
+                117,
+                125,
+                125
+            ]
+        },
+        {
+            "rank": 25,
+            "name": "Weimaraner",
+            "tier": 5,
+            "wiki": "/wiki/Weimaraner",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/3/32/Weimaraner_wb.jpg/220px-Weimaraner_wb.jpg",
+            "id": [
+                21279033,
+                "99665928122094451937521891460264653520586865111288640927117896949494378921985",
+                "Weimaraner"
+            ],
+            "fname": "025_Weimaraner",
+            "bgr": [
+                76,
+                105,
+                114
+            ]
+        },
+        {
+            "rank": 27,
+            "name": "Bernese Mountain Dog",
+            "tier": 5,
+            "wiki": "/wiki/Bernese_Mountain_Dog",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Othello.jpg/220px-Othello.jpg",
+            "id": [
+                21279111,
+                "99665928122094451937521891460264653520586865111288640927117896950593890549761",
+                "Bernese Mountain Dog"
+            ],
+            "fname": "027_Bernese_Mountain_Dog",
+            "bgr": [
+                162,
+                231,
+                186
+            ]
+        },
+        {
+            "rank": 28,
+            "name": "Pomeranian dog",
+            "tier": 5,
+            "wiki": "/wiki/Pomeranian_(dog)",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Pomeranian.JPG/220px-Pomeranian.JPG",
+            "id": [
+                21279207,
+                "99665928122094451937521891460264653520586865111288640927117896951693402177537",
+                "Pomeranian dog"
+            ],
+            "fname": "028_Pomeranian_dog",
+            "bgr": [
+                34,
+                81,
+                142
+            ]
+        },
+        {
+            "rank": 29,
+            "name": "Irish Water Spaniel",
+            "tier": 5,
+            "wiki": "/wiki/Irish_Water_Spaniel",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/67/Irlandzki_spaniel_wodny_676.jpg/220px-Irlandzki_spaniel_wodny_676.jpg",
+            "id": [
+                21279235,
+                "99665928122094451937521891460264653520586865111288640927117896952792913805313",
+                "Irish Water Spaniel"
+            ],
+            "fname": "029_Irish_Water_Spaniel",
+            "bgr": [
+                177,
+                245,
+                244
+            ]
+        },
+        {
+            "rank": 30,
+            "name": "Vizsla",
+            "tier": 5,
+            "wiki": "/wiki/Vizsla",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/4/43/Sampas_9.jpg/220px-Sampas_9.jpg",
+            "id": [
+                21279274,
+                "99665928122094451937521891460264653520586865111288640927117896953892425433089",
+                "Vizsla"
+            ],
+            "fname": "030_Vizsla",
+            "bgr": [
+                187,
+                224,
+                238
+            ]
+        },
+        {
+            "rank": 31,
+            "name": "Cardigan Welsh Corgi",
+            "tier": 5,
+            "wiki": "/wiki/Cardigan_Welsh_Corgi",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Cardigan_Welsh_Corgi%2C_Profile.png/220px-Cardigan_Welsh_Corgi%2C_Profile.png",
+            "id": [
+                21279366,
+                "99665928122094451937521891460264653520586865111288640927117896954991937060865",
+                "Cardigan Welsh Corgi"
+            ],
+            "fname": "031_Cardigan_Welsh_Corgi",
+            "bgr": [
+                100,
+                133,
+                189
+            ]
+        },
+        {
+            "rank": 32,
+            "name": "Chesapeake Bay Retriever",
+            "tier": 4,
+            "wiki": "/wiki/Chesapeake_Bay_Retriever",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/97/CH_Chesapeake.jpg/220px-CH_Chesapeake.jpg",
+            "id": [
+                21279427,
+                "99665928122094451937521891460264653520586865111288640927117896956091448688641",
+                "Chesapeake Bay Retriever"
+            ],
+            "fname": "032_Chesapeake_Bay_Retriever",
+            "bgr": [
+                134,
+                223,
+                233
+            ]
+        },
+        {
+            "rank": 33,
+            "name": "Puli dog",
+            "tier": 4,
+            "wiki": "/wiki/Puli_dog",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ab/PuliBlack_wb.jpg/220px-PuliBlack_wb.jpg",
+            "id": [
+                21279469,
+                "99665928122094451937521891460264653520586865111288640927117896957190960316417",
+                "Puli dog"
+            ],
+            "fname": "033_Puli_dog",
+            "bgr": [
+                143,
+                70,
+                232
+            ]
+        },
+        {
+            "rank": 34,
+            "name": "Yorkshire Terrier",
+            "tier": 4,
+            "wiki": "/wiki/Yorkshire_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/4/41/%282_version%29_Grupp_3%2C_YORKSHIRETERRIER%2C_NO_UCH_SE_UCH_Oxzar_Amazing_Bel%E2%80%99s_Toffy_%2824310212305%29.jpg/220px-%282_version%29_Grupp_3%2C_YORKSHIRETERRIER%2C_NO_UCH_SE_UCH_Oxzar_Amazing_Bel%E2%80%99s_Toffy_%2824310212305%29.jpg",
+            "id": [
+                21279526,
+                "99665928122094451937521891460264653520586865111288640927117896958290471944193",
+                "Yorkshire Terrier"
+            ],
+            "fname": "034_Yorkshire_Terrier",
+            "bgr": [
+                68,
+                35,
+                26
+            ]
+        },
+        {
+            "rank": 35,
+            "name": "Giant Schnauzer",
+            "tier": 4,
+            "wiki": "/wiki/Giant_Schnauzer",
+            "img": "//upload.wikimedia.org/wikipedia/commons/8/85/Schnauzer-giant.jpg",
+            "id": [
+                21279623,
+                "99665928122094451937521891460264653520586865111288640927117896959389983571969",
+                "Giant Schnauzer"
+            ],
+            "fname": "035_Giant_Schnauzer",
+            "bgr": [
+                138,
+                142,
+                131
+            ]
+        },
+        {
+            "rank": 36,
+            "name": "Portuguese Water Dog",
+            "tier": 4,
+            "wiki": "/wiki/Portuguese_Water_Dog",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/0/09/C%C3%A3o_de_agua_Portugu%C3%AAs_2.jpg/220px-C%C3%A3o_de_agua_Portugu%C3%AAs_2.jpg",
+            "id": [
+                21279659,
+                "99665928122094451937521891460264653520586865111288640927117896960489495199745",
+                "Portuguese Water Dog"
+            ],
+            "fname": "036_Portuguese_Water_Dog",
+            "bgr": [
+                235,
+                231,
+                236
+            ]
+        },
+        {
+            "rank": 37,
+            "name": "Airedale Terrier",
+            "tier": 4,
+            "wiki": "/wiki/Airedale_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/5/52/Airedale_Terrier.jpg/220px-Airedale_Terrier.jpg",
+            "id": [
+                21279710,
+                "99665928122094451937521891460264653520586865111288640927117896961589006827521",
+                "Airedale Terrier"
+            ],
+            "fname": "037_Airedale_Terrier",
+            "bgr": [
+                78,
+                122,
+                175
+            ]
+        },
+        {
+            "rank": 38,
+            "name": "Bouvier des Flandres",
+            "tier": 4,
+            "wiki": "/wiki/Bouvier_des_Flandres",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Bouvier.JPG/220px-Bouvier.JPG",
+            "id": [
+                21279753,
+                "99665928122094451937521891460264653520586865111288640927117896962688518455297",
+                "Bouvier des Flandres"
+            ],
+            "fname": "038_Bouvier_des_Flandres",
+            "bgr": [
+                98,
+                123,
+                125
+            ]
+        },
+        {
+            "rank": 39,
+            "name": "Border Terrier",
+            "tier": 4,
+            "wiki": "/wiki/Border_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/7/70/Border_Terrier.jpg/220px-Border_Terrier.jpg",
+            "id": [
+                21279848,
+                "99665928122094451937521891460264653520586865111288640927117896963788030083073",
+                "Border Terrier"
+            ],
+            "fname": "039_Border_Terrier",
+            "bgr": [
+                117,
+                159,
+                164
+            ]
+        },
+        {
+            "rank": 40,
+            "name": "Briard",
+            "tier": 4,
+            "wiki": "/wiki/Briard",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Briard_fauve.JPG/220px-Briard_fauve.JPG",
+            "id": [
+                21280019,
+                "99665928122094451937521891460264653520586865111288640927117896964887541710849",
+                "Briard"
+            ],
+            "fname": "040_Briard",
+            "bgr": [
+                189,
+                181,
+                181
+            ]
+        },
+        {
+            "rank": 41,
+            "name": "Welsh Springer Spaniel",
+            "tier": 4,
+            "wiki": "/wiki/Welsh_Springer_Spaniel",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Welsh_Springer_Spaniel_1.jpg/220px-Welsh_Springer_Spaniel_1.jpg",
+            "id": [
+                21280114,
+                "99665928122094451937521891460264653520586865111288640927117896965987053338625",
+                "Welsh Springer Spaniel"
+            ],
+            "fname": "041_Welsh_Springer_Spaniel",
+            "bgr": [
+                58,
+                68,
+                86
+            ]
+        },
+        {
+            "rank": 42,
+            "name": "Australian Shepherd",
+            "tier": 4,
+            "wiki": "/wiki/Australian_Shepherd",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/3/30/Redtriaussie01.jpg/220px-Redtriaussie01.jpg",
+            "id": [
+                21285045,
+                "99665928122094451937521891460264653520586865111288640927117896976982169616385",
+                "Australian Shepherd"
+            ],
+            "fname": "042_Australian_Shepherd",
+            "bgr": [
+                133,
+                159,
+                173
+            ]
+        },
+        {
+            "rank": 43,
+            "name": "Manchester Terrier",
+            "tier": 4,
+            "wiki": "/wiki/Manchester_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/62/Mancherster_Terrier.jpg/220px-Mancherster_Terrier.jpg",
+            "id": [
+                21280256,
+                "99665928122094451937521891460264653520586865111288640927117896968186076594177",
+                "Manchester Terrier"
+            ],
+            "fname": "043_Manchester_Terrier",
+            "bgr": [
+                74,
+                90,
+                102
+            ]
+        },
+        {
+            "rank": 44,
+            "name": "Samoyed dog",
+            "tier": 4,
+            "wiki": "/wiki/Samoyed_(dog)",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/11.10.2015_Samoyed_%28cropped%29.jpg/220px-11.10.2015_Samoyed_%28cropped%29.jpg",
+            "id": [
+                21280327,
+                "99665928122094451937521891460264653520586865111288640927117896969285588221953",
+                "Samoyed dog"
+            ],
+            "fname": "044_Samoyed_dog",
+            "bgr": [
+                225,
+                220,
+                219
+            ]
+        },
+        {
+            "rank": 45,
+            "name": "Field Spaniel",
+            "tier": 4,
+            "wiki": "/wiki/Field_Spaniel",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Field_spaniel_581.jpg/220px-Field_spaniel_581.jpg",
+            "id": [
+                21280364,
+                "99665928122094451937521891460264653520586865111288640927117896970385099849729",
+                "Field Spaniel"
+            ],
+            "fname": "045_Field_Spaniel",
+            "bgr": [
+                197,
+                227,
+                246
+            ]
+        },
+        {
+            "rank": 46,
+            "name": "Newfoundland dog",
+            "tier": 4,
+            "wiki": "/wiki/Newfoundland_(dog)",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Newfoundland_dog_Smoky.jpg/220px-Newfoundland_dog_Smoky.jpg",
+            "id": [
+                21280411,
+                "99665928122094451937521891460264653520586865111288640927117896971484611477505",
+                "Newfoundland dog"
+            ],
+            "fname": "046_Newfoundland_dog",
+            "bgr": [
+                69,
+                114,
+                171
+            ]
+        },
+        {
+            "rank": 47,
+            "name": "Australian Terrier",
+            "tier": 4,
+            "wiki": "/wiki/Australian_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Australian_Terrier_adult_male.jpg/220px-Australian_Terrier_adult_male.jpg",
+            "id": [
+                21280447,
+                "99665928122094451937521891460264653520586865111288640927117896972584123105281",
+                "Australian Terrier"
+            ],
+            "fname": "047_Australian_Terrier",
+            "bgr": [
+                171,
+                83,
+                29
+            ]
+        },
+        {
+            "rank": 48,
+            "name": "American Staffordshire Terrier",
+            "tier": 4,
+            "wiki": "/wiki/American_Staffordshire_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/66/AMERICAN_STAFFORDSHIRE_TERRIER%2C_Zican%E2%80%99s_Bz_Ez_Dragon_%2824208348891%29.2.jpg/220px-AMERICAN_STAFFORDSHIRE_TERRIER%2C_Zican%E2%80%99s_Bz_Ez_Dragon_%2824208348891%29.2.jpg",
+            "id": [
+                21280485,
+                "99665928122094451937521891460264653520586865111288640927117896973683634733057",
+                "American Staffordshire Terrier"
+            ],
+            "fname": "048_American_Staffordshire_Terrier",
+            "bgr": [
+                38,
+                53,
+                86
+            ]
+        },
+        {
+            "rank": 49,
+            "name": "Gordon Setter",
+            "tier": 4,
+            "wiki": "/wiki/Gordon_Setter",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Orrvilas_enska_w800px.jpg/220px-Orrvilas_enska_w800px.jpg",
+            "id": [
+                21280543,
+                "99665928122094451937521891460264653520586865111288640927117896974783146360833",
+                "Gordon Setter"
+            ],
+            "fname": "049_Gordon_Setter",
+            "bgr": [
+                218,
+                222,
+                216
+            ]
+        },
+        {
+            "rank": 50,
+            "name": "Bearded Collie",
+            "tier": 4,
+            "wiki": "/wiki/Bearded_Collie",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Bearded_Collie_600.jpg/220px-Bearded_Collie_600.jpg",
+            "id": [
+                21280572,
+                "99665928122094451937521891460264653520586865111288640927117896975882657988609",
+                "Bearded Collie"
+            ],
+            "fname": "050_Bearded_Collie",
+            "bgr": [
+                242,
+                246,
+                240
+            ]
+        },
+        {
+            "rank": 51,
+            "name": "Cairn Terrier",
+            "tier": 4,
+            "wiki": "/wiki/Cairn_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Cairn-Terrier-Garten1.jpg/220px-Cairn-Terrier-Garten1.jpg",
+            "id": [
+                21286552,
+                "99665928122094451937521891460264653520586865111288640927117896978081681244161",
+                "Cairn Terrier"
+            ],
+            "fname": "051_Cairn_Terrier",
+            "bgr": [
+                70,
+                126,
+                91
+            ]
+        },
+        {
+            "rank": 52,
+            "name": "Kerry Blue Terrier",
+            "tier": 4,
+            "wiki": "/wiki/Kerry_Blue_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Kerry_Blue_Terrier.jpg/220px-Kerry_Blue_Terrier.jpg",
+            "id": [
+                21286634,
+                "99665928122094451937521891460264653520586865111288640927117896979181192871937",
+                "Kerry Blue Terrier"
+            ],
+            "fname": "052_Kerry_Blue_Terrier",
+            "bgr": [
+                124,
+                123,
+                125
+            ]
+        },
+        {
+            "rank": 53,
+            "name": "Irish Setter",
+            "tier": 4,
+            "wiki": "/wiki/Irish_Setter",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Can_Setter_dog_GFDL.jpg/220px-Can_Setter_dog_GFDL.jpg",
+            "id": [
+                21286668,
+                "99665928122094451937521891460264653520586865111288640927117896980280704499713",
+                "Irish Setter"
+            ],
+            "fname": "053_Irish_Setter",
+            "bgr": [
+                115,
+                161,
+                108
+            ]
+        },
+        {
+            "rank": 54,
+            "name": "Norwegian Elkhound",
+            "tier": 4,
+            "wiki": "/wiki/Norwegian_Elkhound",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Norwegian_Elkhound.jpg/220px-Norwegian_Elkhound.jpg",
+            "id": [
+                21286713,
+                "99665928122094451937521891460264653520586865111288640927117896981380216127489",
+                "Norwegian Elkhound"
+            ],
+            "fname": "054_Norwegian_Elkhound",
+            "bgr": [
+                37,
+                36,
+                26
+            ]
+        },
+        {
+            "rank": 55,
+            "name": "Affenpinscher",
+            "tier": 4,
+            "wiki": "/wiki/Affenpinscher",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/1/17/Affenpinscher.jpg/220px-Affenpinscher.jpg",
+            "id": [
+                21286753,
+                "99665928122094451937521891460264653520586865111288640927117896982479727755265",
+                "Affenpinscher"
+            ],
+            "fname": "055_Affenpinscher",
+            "bgr": [
+                86,
+                87,
+                85
+            ]
+        },
+        {
+            "rank": 56,
+            "name": "Australian Silky Terrier",
+            "tier": 4,
+            "wiki": "/wiki/Australian_Silky_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Australian_Silky_Terrier_Alana_Of_Silky%27s_Dream.jpg/220px-Australian_Silky_Terrier_Alana_Of_Silky%27s_Dream.jpg",
+            "id": [
+                21286825,
+                "99665928122094451937521891460264653520586865111288640927117896983579239383041",
+                "Australian Silky Terrier"
+            ],
+            "fname": "056_Australian_Silky_Terrier",
+            "bgr": [
+                23,
+                69,
+                110
+            ]
+        },
+        {
+            "rank": 57,
+            "name": "Miniature Pinscher",
+            "tier": 4,
+            "wiki": "/wiki/Miniature_Pinscher",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Miniature_pinscher.jpg/220px-Miniature_pinscher.jpg",
+            "id": [
+                21286865,
+                "99665928122094451937521891460264653520586865111288640927117896984678751010817",
+                "Miniature Pinscher"
+            ],
+            "fname": "057_Miniature_Pinscher",
+            "bgr": [
+                56,
+                55,
+                57
+            ]
+        },
+        {
+            "rank": 58,
+            "name": "English Setter",
+            "tier": 4,
+            "wiki": "/wiki/English_Setter",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/1/15/EnglishSetter9_fx_wb.jpg/220px-EnglishSetter9_fx_wb.jpg",
+            "id": [
+                21286907,
+                "99665928122094451937521891460264653520586865111288640927117896985778262638593",
+                "English Setter"
+            ],
+            "fname": "058_English_Setter",
+            "bgr": [
+                75,
+                55,
+                50
+            ]
+        },
+        {
+            "rank": 59,
+            "name": "Pharaoh Hound",
+            "tier": 4,
+            "wiki": "/wiki/Pharaoh_Hound",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/5/51/Pies_faraona_e34.jpg/220px-Pies_faraona_e34.jpg",
+            "id": [
+                21286983,
+                "99665928122094451937521891460264653520586865111288640927117896986877774266369",
+                "Pharaoh Hound"
+            ],
+            "fname": "059_Pharaoh_Hound",
+            "bgr": [
+                15,
+                48,
+                111
+            ]
+        },
+        {
+            "rank": 60,
+            "name": "Clumber Spaniel",
+            "tier": 4,
+            "wiki": "/wiki/Clumber_Spaniel",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/4/40/Clumber_spaniel_rybnik_kamien_pppl.jpg/220px-Clumber_spaniel_rybnik_kamien_pppl.jpg",
+            "id": [
+                21287040,
+                "99665928122094451937521891460264653520586865111288640927117896987977285894145",
+                "Clumber Spaniel"
+            ],
+            "fname": "060_Clumber_Spaniel",
+            "bgr": [
+                156,
+                176,
+                117
+            ]
+        },
+        {
+            "rank": 61,
+            "name": "Norwich Terrier",
+            "tier": 4,
+            "wiki": "/wiki/Norwich_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/db/Norwichterrier.jpg/220px-Norwichterrier.jpg",
+            "id": [
+                21287089,
+                "99665928122094451937521891460264653520586865111288640927117896989076797521921",
+                "Norwich Terrier"
+            ],
+            "fname": "061_Norwich_Terrier",
+            "bgr": [
+                43,
+                111,
+                80
+            ]
+        },
+        {
+            "rank": 62,
+            "name": "Dalmatian (dog)",
+            "tier": 4,
+            "wiki": "/wiki/Dalmatian_(dog)",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Nova-zembla.jpg/220px-Nova-zembla.jpg",
+            "id": [
+                21287124,
+                "99665928122094451937521891460264653520586865111288640927117896990176309149697",
+                "Dalmatian"
+            ],
+            "fname": "062_Dalmatian_(dog)",
+            "bgr": [
+                19,
+                27,
+                50
+            ]
+        },
+        {
+            "rank": 63,
+            "name": "Soft-coated Wheaten Terrier",
+            "tier": 3,
+            "wiki": "/wiki/Soft-coated_Wheaten_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/4/41/Australian_Grand_Champion_Dancestar_Zero_O_Seven_%22Bondy%22.jpg/220px-Australian_Grand_Champion_Dancestar_Zero_O_Seven_%22Bondy%22.jpg",
+            "id": [
+                21287252,
+                "99665928122094451937521891460264653520586865111288640927117896991275820777473",
+                "Soft-coated Wheaten Terrier"
+            ],
+            "fname": "063_Soft-coated_Wheaten_Terrier",
+            "bgr": [
+                63,
+                56,
+                53
+            ]
+        },
+        {
+            "rank": 64,
+            "name": "Bedlington Terrier",
+            "tier": 3,
+            "wiki": "/wiki/Bedlington_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Boutchie_apres_championnat_004.JPG/220px-Boutchie_apres_championnat_004.JPG",
+            "id": [
+                21287281,
+                "99665928122094451937521891460264653520586865111288640927117896992375332405249",
+                "Bedlington Terrier"
+            ],
+            "fname": "064_Bedlington_Terrier",
+            "bgr": [
+                103,
+                143,
+                141
+            ]
+        },
+        {
+            "rank": 65,
+            "name": "Smooth Fox Terrier",
+            "tier": 3,
+            "wiki": "/wiki/Smooth_Fox_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Patrick_the_Smooth_Fox_Terrier.jpg/220px-Patrick_the_Smooth_Fox_Terrier.jpg",
+            "id": [
+                21287427,
+                "99665928122094451937521891460264653520586865111288640927117896993474844033025",
+                "Smooth Fox Terrier"
+            ],
+            "fname": "065_Smooth_Fox_Terrier",
+            "bgr": [
+                125,
+                153,
+                140
+            ]
+        },
+        {
+            "rank": 66,
+            "name": "Curly-coated Retriever",
+            "tier": 3,
+            "wiki": "/wiki/Curly_Coated_Retriever",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/5/58/Curly_Coated_Retriever.jpg/220px-Curly_Coated_Retriever.jpg",
+            "id": [
+                21287489,
+                "99665928122094451937521891460264653520586865111288640927117896994574355660801",
+                "Curly-coated Retriever"
+            ],
+            "fname": "066_Curly-coated_Retriever",
+            "bgr": [
+                176,
+                150,
+                133
+            ]
+        },
+        {
+            "rank": 67,
+            "name": "Irish wolfhound",
+            "tier": 3,
+            "wiki": "/wiki/Irish_Wolfhound",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/da/%282%29_Irish_Wolfhound_4.jpg/220px-%282%29_Irish_Wolfhound_4.jpg",
+            "id": [
+                21287550,
+                "99665928122094451937521891460264653520586865111288640927117896995673867288577",
+                "Irish wolfhound"
+            ],
+            "fname": "067_Irish_wolfhound",
+            "bgr": [
+                236,
+                234,
+                224
+            ]
+        },
+        {
+            "rank": 68,
+            "name": "Kuvasz",
+            "tier": 3,
+            "wiki": "/wiki/Kuvasz",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/7/76/Kuvasz_named_Kan.jpg/220px-Kuvasz_named_Kan.jpg",
+            "id": [
+                21287605,
+                "99665928122094451937521891460264653520586865111288640927117896996773378916353",
+                "Kuvasz"
+            ],
+            "fname": "068_Kuvasz",
+            "bgr": [
+                143,
+                151,
+                151
+            ]
+        },
+        {
+            "rank": 70,
+            "name": "Saluki",
+            "tier": 3,
+            "wiki": "/wiki/Saluki",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/3/31/Red_Smooth_Saluki.jpg/220px-Red_Smooth_Saluki.jpg",
+            "id": [
+                21287659,
+                "99665928122094451937521891460264653520586865111288640927117896997872890544129",
+                "Saluki"
+            ],
+            "fname": "070_Saluki",
+            "bgr": [
+                81,
+                115,
+                181
+            ]
+        },
+        {
+            "rank": 71,
+            "name": "Finnish Spitz",
+            "tier": 3,
+            "wiki": "/wiki/Finnish_Spitz",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Finnish_Spitz_600.jpg/220px-Finnish_Spitz_600.jpg",
+            "id": [
+                21287744,
+                "99665928122094451937521891460264653520586865111288640927117896998972402171905",
+                "Finnish Spitz"
+            ],
+            "fname": "071_Finnish_Spitz",
+            "bgr": [
+                99,
+                147,
+                189
+            ]
+        },
+        {
+            "rank": 73,
+            "name": "Cavalier King Charles Spaniel",
+            "tier": 3,
+            "wiki": "/wiki/Cavalier_King_Charles_Spaniel",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/CarterBIS.Tiki.13.6.09.jpg/220px-CarterBIS.Tiki.13.6.09.jpg",
+            "id": [
+                21398291,
+                "99665928122094451937521891460264653520586865111288640927117897070440657977345",
+                "Cavalier King Charles Spaniel"
+            ],
+            "fname": "073_Cavalier_King_Charles_Spaniel",
+            "bgr": [
+                88,
+                88,
+                82
+            ]
+        },
+        {
+            "rank": 74,
+            "name": "German Wirehaired Pointer",
+            "tier": 3,
+            "wiki": "/wiki/German_Wirehaired_Pointer",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2b/GermanWirehrPtr1_wb.jpg/220px-GermanWirehrPtr1_wb.jpg",
+            "id": [
+                21287795,
+                "99665928122094451937521891460264653520586865111288640927117897000071913799681",
+                "German Wirehaired Pointer"
+            ],
+            "fname": "074_German_Wirehaired_Pointer",
+            "bgr": [
+                221,
+                224,
+                222
+            ]
+        },
+        {
+            "rank": 75,
+            "name": "Black and Tan Coonhound",
+            "tier": 3,
+            "wiki": "/wiki/Black_and_Tan_Coonhound",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Black_and_Tan_Coonhound.jpg/220px-Black_and_Tan_Coonhound.jpg",
+            "id": [
+                21287927,
+                "99665928122094451937521891460264653520586865111288640927117897001171425427457",
+                "Black and Tan Coonhound"
+            ],
+            "fname": "075_Black_and_Tan_Coonhound",
+            "bgr": [
+                96,
+                136,
+                134
+            ]
+        },
+        {
+            "rank": 76,
+            "name": "American Water Spaniel",
+            "tier": 3,
+            "wiki": "/wiki/American_Water_Spaniel",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Chien_d%27eau_americain_champion_1.JPG/220px-Chien_d%27eau_americain_champion_1.JPG",
+            "id": [
+                21287986,
+                "99665928122094451937521891460264653520586865111288640927117897002270937055233",
+                "American Water Spaniel"
+            ],
+            "fname": "076_American_Water_Spaniel",
+            "bgr": [
+                232,
+                246,
+                240
+            ]
+        },
+        {
+            "rank": 77,
+            "name": "Siberian Husky",
+            "tier": 3,
+            "wiki": "/wiki/Siberian_Husky",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Husky_L.jpg/220px-Husky_L.jpg",
+            "id": [
+                21288045,
+                "99665928122094451937521891460264653520586865111288640927117897003370448683009",
+                "Siberian Husky"
+            ],
+            "fname": "077_Siberian_Husky",
+            "bgr": [
+                242,
+                243,
+                247
+            ]
+        },
+        {
+            "rank": 78,
+            "name": "Bichon Frise",
+            "tier": 3,
+            "wiki": "/wiki/Bichon_Frise",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bichon_Fris%C3%A9_-_studdogbichon.jpg/220px-Bichon_Fris%C3%A9_-_studdogbichon.jpg",
+            "id": [
+                21288083,
+                "99665928122094451937521891460264653520586865111288640927117897004469960310785",
+                "Bichon Frise"
+            ],
+            "fname": "078_Bichon_Frise",
+            "bgr": [
+                26,
+                27,
+                25
+            ]
+        },
+        {
+            "rank": 79,
+            "name": "Havanese dog",
+            "tier": 3,
+            "wiki": "/wiki/Havanese_dog",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ed/A_Havanese_judging.jpg/220px-A_Havanese_judging.jpg",
+            "id": [
+                21288115,
+                "99665928122094451937521891460264653520586865111288640927117897005569471938561",
+                "Havanese dog"
+            ],
+            "fname": "079_Havanese_dog",
+            "bgr": [
+                7,
+                39,
+                114
+            ]
+        },
+        {
+            "rank": 80,
+            "name": "King Charles Spaniel",
+            "tier": 3,
+            "wiki": "/wiki/King_Charles_Spaniel",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/King_Charles_Spaniel_200.jpg/220px-King_Charles_Spaniel_200.jpg",
+            "id": [
+                21288154,
+                "99665928122094451937521891460264653520586865111288640927117897006668983566337",
+                "King Charles Spaniel"
+            ],
+            "fname": "080_King_Charles_Spaniel",
+            "bgr": [
+                115,
+                150,
+                194
+            ]
+        },
+        {
+            "rank": 81,
+            "name": "Tibetan spaniel",
+            "tier": 3,
+            "wiki": "/wiki/Tibetan_Spaniel",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Tibetansk_spaniel.jpg/220px-Tibetansk_spaniel.jpg",
+            "id": [
+                21288644,
+                "99665928122094451937521891460264653520586865111288640927117897007768495194113",
+                "Tibetan spaniel"
+            ],
+            "fname": "081_Tibetan_spaniel",
+            "bgr": [
+                62,
+                78,
+                77
+            ]
+        },
+        {
+            "rank": 82,
+            "name": "English Foxhound",
+            "tier": 3,
+            "wiki": "/wiki/English_Foxhound",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/4/44/English_Foxhound_portrait.jpg/220px-English_Foxhound_portrait.jpg",
+            "id": [
+                21288692,
+                "99665928122094451937521891460264653520586865111288640927117897008868006821889",
+                "English Foxhound"
+            ],
+            "fname": "082_English_Foxhound",
+            "bgr": [
+                195,
+                204,
+                207
+            ]
+        },
+        {
+            "rank": 83,
+            "name": "Otterhound",
+            "tier": 3,
+            "wiki": "/wiki/Otterhound",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Two_otterhounds.jpg/220px-Two_otterhounds.jpg",
+            "id": [
+                21288741,
+                "99665928122094451937521891460264653520586865111288640927117897009967518449665",
+                "Otterhound"
+            ],
+            "fname": "083_Otterhound",
+            "bgr": [
+                89,
+                140,
+                126
+            ]
+        },
+        {
+            "rank": 84,
+            "name": "Jack Russell Terrier",
+            "tier": 3,
+            "wiki": "/wiki/Jack_Russell_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Jack_Russell_Terrier_1.jpg/220px-Jack_Russell_Terrier_1.jpg",
+            "id": [
+                21289127,
+                "99665928122094451937521891460264653520586865111288640927117897011067030077441",
+                "Jack Russell Terrier"
+            ],
+            "fname": "084_Jack_Russell_Terrier",
+            "bgr": [
+                69,
+                84,
+                110
+            ]
+        },
+        {
+            "rank": 85,
+            "name": "American Foxhound",
+            "tier": 3,
+            "wiki": "/wiki/American_Foxhound",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/AmericanFoxhound2.jpg/220px-AmericanFoxhound2.jpg",
+            "id": [
+                21289239,
+                "99665928122094451937521891460264653520586865111288640927117897012166541705217",
+                "American Foxhound"
+            ],
+            "fname": "085_American_Foxhound",
+            "bgr": [
+                61,
+                52,
+                55
+            ]
+        },
+        {
+            "rank": 86,
+            "name": "Greyhound",
+            "tier": 3,
+            "wiki": "/wiki/Greyhound",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ef/GraceTheGreyhound.jpg/220px-GraceTheGreyhound.jpg",
+            "id": [
+                21289284,
+                "99665928122094451937521891460264653520586865111288640927117897013266053332993",
+                "Greyhound"
+            ],
+            "fname": "086_Greyhound",
+            "bgr": [
+                160,
+                159,
+                149
+            ]
+        },
+        {
+            "rank": 87,
+            "name": "Wirehaired Pointing Griffon",
+            "tier": 3,
+            "wiki": "/wiki/Wirehaired_Pointing_Griffon",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/8/87/GCH_Int_Ch_UCH_Zerubbabel_von_Herrenhausen_CGC_MHA.jpg/220px-GCH_Int_Ch_UCH_Zerubbabel_von_Herrenhausen_CGC_MHA.jpg",
+            "id": [
+                21289326,
+                "99665928122094451937521891460264653520586865111288640927117897014365564960769",
+                "Wirehaired Pointing Griffon"
+            ],
+            "fname": "087_Wirehaired_Pointing_Griffon",
+            "bgr": [
+                30,
+                65,
+                25
+            ]
+        },
+        {
+            "rank": 88,
+            "name": "West Highland White Terrier",
+            "tier": 3,
+            "wiki": "/wiki/West_Highland_White_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/West_Highland_White_Terrier_Krakow.jpg/220px-West_Highland_White_Terrier_Krakow.jpg",
+            "id": [
+                21289365,
+                "99665928122094451937521891460264653520586865111288640927117897015465076588545",
+                "West Highland White Terrier"
+            ],
+            "fname": "088_West_Highland_White_Terrier",
+            "bgr": [
+                200,
+                201,
+                199
+            ]
+        },
+        {
+            "rank": 89,
+            "name": "Scottish Deerhound",
+            "tier": 3,
+            "wiki": "/wiki/Scottish_Deerhound",
+            "img": "//upload.wikimedia.org/wikipedia/en/thumb/5/5b/Deerhound_Fernhill%27s_Kendra.jpg/220px-Deerhound_Fernhill%27s_Kendra.jpg",
+            "id": [
+                21289406,
+                "99665928122094451937521891460264653520586865111288640927117897016564588216321",
+                "Scottish Deerhound"
+            ],
+            "fname": "089_Scottish_Deerhound",
+            "bgr": [
+                95,
+                136,
+                185
+            ]
+        },
+        {
+            "rank": 90,
+            "name": "Boxer (dog)",
+            "tier": 3,
+            "wiki": "/wiki/Boxer_(dog)",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Male_fawn_Boxer_undocked.jpg/220px-Male_fawn_Boxer_undocked.jpg",
+            "id": [
+                21289458,
+                "99665928122094451937521891460264653520586865111288640927117897017664099844097",
+                "Boxer"
+            ],
+            "fname": "090_Boxer_(dog)",
+            "bgr": [
+                21,
+                46,
+                90
+            ]
+        },
+        {
+            "rank": 91,
+            "name": "Great Dane",
+            "tier": 3,
+            "wiki": "/wiki/Great_Dane",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Dog_niemiecki_%C5%BC%C3%B3%C5%82ty_LM980.jpg/220px-Dog_niemiecki_%C5%BC%C3%B3%C5%82ty_LM980.jpg",
+            "id": [
+                21291808,
+                "99665928122094451937521891460264653520586865111288640927117897018763611471873",
+                "Great Dane"
+            ],
+            "fname": "091_Great_Dane",
+            "bgr": [
+                16,
+                15,
+                77
+            ]
+        },
+        {
+            "rank": 92,
+            "name": "Dachshund",
+            "tier": 3,
+            "wiki": "/wiki/Dachshund",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Short-haired-Dachshund.jpg/220px-Short-haired-Dachshund.jpg",
+            "id": [
+                21292363,
+                "99665928122094451937521891460264653520586865111288640927117897019863123099649",
+                "Dachshund"
+            ],
+            "fname": "092_Dachshund",
+            "bgr": [
+                205,
+                170,
+                136
+            ]
+        },
+        {
+            "rank": 93,
+            "name": "Shiba Inu",
+            "tier": 3,
+            "wiki": "/wiki/Shiba_Inu",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Taka_Shiba.jpg/220px-Taka_Shiba.jpg",
+            "id": [
+                21292496,
+                "99665928122094451937521891460264653520586865111288640927117897020962634727425",
+                "Shiba Inu"
+            ],
+            "fname": "093_Shiba_Inu",
+            "bgr": [
+                91,
+                99,
+                99
+            ]
+        },
+        {
+            "rank": 94,
+            "name": "Staffordshire Bull Terrier",
+            "tier": 3,
+            "wiki": "/wiki/Staffordshire_Bull_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Staffordshire-bull-terrier-white-2748733.jpg/220px-Staffordshire-bull-terrier-white-2748733.jpg",
+            "id": [
+                21292532,
+                "99665928122094451937521891460264653520586865111288640927117897022062146355201",
+                "Staffordshire Bull Terrier"
+            ],
+            "fname": "094_Staffordshire_Bull_Terrier",
+            "bgr": [
+                68,
+                74,
+                81
+            ]
+        },
+        {
+            "rank": 95,
+            "name": "Alaskan Malamute",
+            "tier": 3,
+            "wiki": "/wiki/Alaskan_Malamute",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Alaskan_Malamute.jpg/300px-Alaskan_Malamute.jpg",
+            "id": [
+                21292569,
+                "99665928122094451937521891460264653520586865111288640927117897023161657982977",
+                "Alaskan Malamute"
+            ],
+            "fname": "095_Alaskan_Malamute",
+            "bgr": [
+                149,
+                174,
+                176
+            ]
+        },
+        {
+            "rank": 96,
+            "name": "Whippet",
+            "tier": 3,
+            "wiki": "/wiki/Whippet",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhippetWhiteSaddled_wb.jpg/220px-WhippetWhiteSaddled_wb.jpg",
+            "id": [
+                21292715,
+                "99665928122094451937521891460264653520586865111288640927117897024261169610753",
+                "Whippet"
+            ],
+            "fname": "096_Whippet",
+            "bgr": [
+                14,
+                23,
+                20
+            ]
+        },
+        {
+            "rank": 97,
+            "name": "Shar Pei",
+            "tier": 3,
+            "wiki": "/wiki/Shar_Pei",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Adult_sharpei.jpg/220px-Adult_sharpei.jpg",
+            "id": [
+                21292751,
+                "99665928122094451937521891460264653520586865111288640927117897025360681238529",
+                "Shar Pei"
+            ],
+            "fname": "097_Shar_Pei",
+            "bgr": [
+                137,
+                240,
+                232
+            ]
+        },
+        {
+            "rank": 98,
+            "name": "Wire Fox Terrier",
+            "tier": 3,
+            "wiki": "/wiki/Wire_Fox_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Elias1%C4%8Derven2006.jpg/220px-Elias1%C4%8Derven2006.jpg",
+            "id": [
+                21292779,
+                "99665928122094451937521891460264653520586865111288640927117897026460192866305",
+                "Wire Fox Terrier"
+            ],
+            "fname": "098_Wire_Fox_Terrier",
+            "bgr": [
+                9,
+                56,
+                23
+            ]
+        },
+        {
+            "rank": 99,
+            "name": "Rhodesian Ridgeback",
+            "tier": 3,
+            "wiki": "/wiki/Rhodesian_Ridgeback",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Rhodesian_ridgeback.jpg/220px-Rhodesian_ridgeback.jpg",
+            "id": [
+                21292821,
+                "99665928122094451937521891460264653520586865111288640927117897027559704494081",
+                "Rhodesian Ridgeback"
+            ],
+            "fname": "099_Rhodesian_Ridgeback",
+            "bgr": [
+                129,
+                154,
+                186
+            ]
+        },
+        {
+            "rank": 100,
+            "name": "Ibizan Hound",
+            "tier": 3,
+            "wiki": "/wiki/Ibizan_Hound",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Podenco_z_ibizy_645.jpg/240px-Podenco_z_ibizy_645.jpg",
+            "id": [
+                21292869,
+                "99665928122094451937521891460264653520586865111288640927117897028659216121857",
+                "Ibizan Hound"
+            ],
+            "fname": "100_Ibizan_Hound",
+            "bgr": [
+                66,
+                78,
+                150
+            ]
+        },
+        {
+            "rank": 101,
+            "name": "Welsh Terrier",
+            "tier": 3,
+            "wiki": "/wiki/Welsh_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Terier_walijski_suka_2009_pl.jpg/220px-Terier_walijski_suka_2009_pl.jpg",
+            "id": [
+                21292912,
+                "99665928122094451937521891460264653520586865111288640927117897029758727749633",
+                "Welsh Terrier"
+            ],
+            "fname": "101_Welsh_Terrier",
+            "bgr": [
+                245,
+                209,
+                171
+            ]
+        },
+        {
+            "rank": 102,
+            "name": "Irish Terrier",
+            "tier": 3,
+            "wiki": "/wiki/Irish_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/5/56/IrishTerrierSydenhamHillWoods.jpg/220px-IrishTerrierSydenhamHillWoods.jpg",
+            "id": [
+                21292929,
+                "99665928122094451937521891460264653520586865111288640927117897030858239377409",
+                "Irish Terrier"
+            ],
+            "fname": "102_Irish_Terrier",
+            "bgr": [
+                114,
+                176,
+                162
+            ]
+        },
+        {
+            "rank": 103,
+            "name": "Boston Terrier",
+            "tier": 3,
+            "wiki": "/wiki/Boston_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Boston-terrier-carlos-de.JPG/220px-Boston-terrier-carlos-de.JPG",
+            "id": [
+                21292969,
+                "99665928122094451937521891460264653520586865111288640927117897031957751005185",
+                "Boston Terrier"
+            ],
+            "fname": "103_Boston_Terrier",
+            "bgr": [
+                88,
+                85,
+                81
+            ]
+        },
+        {
+            "rank": 104,
+            "name": "Akita (dog)",
+            "tier": 3,
+            "wiki": "/wiki/Akita_(dog)",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Akita_Inu_dog.jpg/220px-Akita_Inu_dog.jpg",
+            "id": [
+                21293014,
+                "99665928122094451937521891460264653520586865111288640927117897033057262632961",
+                "Akita"
+            ],
+            "fname": "104_Akita_(dog)",
+            "bgr": [
+                108,
+                114,
+                125
+            ]
+        },
+        {
+            "rank": 105,
+            "name": "Skye Terrier",
+            "tier": 2,
+            "wiki": "/wiki/Skye_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/61/Skye_terrier_800.jpg/220px-Skye_terrier_800.jpg",
+            "id": [
+                21293105,
+                "99665928122094451937521891460264653520586865111288640927117897034156774260737",
+                "Skye Terrier"
+            ],
+            "fname": "105_Skye_Terrier",
+            "bgr": [
+                131,
+                132,
+                130
+            ]
+        },
+        {
+            "rank": 106,
+            "name": "Norfolk Terrier",
+            "tier": 2,
+            "wiki": "/wiki/Norfolk_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/b/be/Norfolk_terrier_CAC.jpg/220px-Norfolk_terrier_CAC.jpg",
+            "id": [
+                21293151,
+                "99665928122094451937521891460264653520586865111288640927117897035256285888513",
+                "Norfolk Terrier"
+            ],
+            "fname": "106_Norfolk_Terrier",
+            "bgr": [
+                92,
+                71,
+                56
+            ]
+        },
+        {
+            "rank": 107,
+            "name": "Sealyham Terrier",
+            "tier": 2,
+            "wiki": "/wiki/Sealyham_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/en/thumb/0/0a/Charmin_crufts_2009.jpg/220px-Charmin_crufts_2009.jpg",
+            "id": [
+                21293451,
+                "99665928122094451937521891460264653520586865111288640927117897036355797516289",
+                "Sealyham Terrier"
+            ],
+            "fname": "107_Sealyham_Terrier",
+            "bgr": [
+                13,
+                18,
+                19
+            ]
+        },
+        {
+            "rank": 108,
+            "name": "Pug",
+            "tier": 2,
+            "wiki": "/wiki/Pug",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Mops_oct09_cropped2.jpg/220px-Mops_oct09_cropped2.jpg",
+            "id": [
+                21293523,
+                "99665928122094451937521891460264653520586865111288640927117897037455309144065",
+                "Pug"
+            ],
+            "fname": "108_Pug",
+            "bgr": [
+                109,
+                133,
+                157
+            ]
+        },
+        {
+            "rank": 109,
+            "name": "French Bulldog",
+            "tier": 2,
+            "wiki": "/wiki/French_Bulldog",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/1/18/2008-07-28_Dog_at_Frolick_Field.jpg/220px-2008-07-28_Dog_at_Frolick_Field.jpg",
+            "id": [
+                21293754,
+                "99665928122094451937521891460264653520586865111288640927117897038554820771841",
+                "French Bulldog"
+            ],
+            "fname": "109_French_Bulldog",
+            "bgr": [
+                214,
+                218,
+                223
+            ]
+        },
+        {
+            "rank": 110,
+            "name": "Griffon Bruxellois",
+            "tier": 2,
+            "wiki": "/wiki/Griffon_Bruxellois",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/23/Monkey_Bizniz_Drama_Queen.jpg/220px-Monkey_Bizniz_Drama_Queen.jpg",
+            "id": [
+                21293784,
+                "99665928122094451937521891460264653520586865111288640927117897039654332399617",
+                "Griffon Bruxellois"
+            ],
+            "fname": "110_Griffon_Bruxellois",
+            "bgr": [
+                3,
+                22,
+                43
+            ]
+        },
+        {
+            "rank": 111,
+            "name": "Maltese dog",
+            "tier": 2,
+            "wiki": "/wiki/Maltese_(dog)",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/94/Maltese_600.jpg/220px-Maltese_600.jpg",
+            "id": [
+                21293948,
+                "99665928122094451937521891460264653520586865111288640927117897040753844027393",
+                "Maltese dog"
+            ],
+            "fname": "111_Maltese_dog",
+            "bgr": [
+                162,
+                110,
+                80
+            ]
+        },
+        {
+            "rank": 112,
+            "name": "Italian Greyhound",
+            "tier": 2,
+            "wiki": "/wiki/Italian_Greyhound",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Italian_Greyhound_standing_gray_%28cropped%29.jpg/220px-Italian_Greyhound_standing_gray_%28cropped%29.jpg",
+            "id": [
+                21294450,
+                "99665928122094451937521891460264653520586865111288640927117897041853355655169",
+                "Italian Greyhound"
+            ],
+            "fname": "112_Italian_Greyhound",
+            "bgr": [
+                214,
+                220,
+                227
+            ]
+        },
+        {
+            "rank": 113,
+            "name": "Coton de Tulear",
+            "tier": 2,
+            "wiki": "/wiki/Coton_de_Tulear",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Coton_de_Tular_1.jpg/220px-Coton_de_Tular_1.jpg",
+            "id": [
+                21294686,
+                "99665928122094451937521891460264653520586865111288640927117897042952867282945",
+                "Coton de Tulear"
+            ],
+            "fname": "113_Coton_de_Tulear",
+            "bgr": [
+                6,
+                24,
+                1
+            ]
+        },
+        {
+            "rank": 114,
+            "name": "Chinese Crested Dog",
+            "tier": 2,
+            "wiki": "/wiki/Chinese_Crested_Dog",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/9/97/IndyStands.jpg/220px-IndyStands.jpg",
+            "id": [
+                21294776,
+                "99665928122094451937521891460264653520586865111288640927117897044052378910721",
+                "Chinese Crested Dog"
+            ],
+            "fname": "114_Chinese_Crested_Dog",
+            "bgr": [
+                142,
+                149,
+                146
+            ]
+        },
+        {
+            "rank": 115,
+            "name": "Dandie Dinmont Terrier",
+            "tier": 2,
+            "wiki": "/wiki/Dandie_Dinmont_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/63/Dandie_Dinmont_Terrier_600.jpg/220px-Dandie_Dinmont_Terrier_600.jpg",
+            "id": [
+                21294841,
+                "99665928122094451937521891460264653520586865111288640927117897045151890538497",
+                "Dandie Dinmont Terrier"
+            ],
+            "fname": "115_Dandie_Dinmont_Terrier",
+            "bgr": [
+                47,
+                56,
+                60
+            ]
+        },
+        {
+            "rank": 116,
+            "name": "Petit Basset Griffon Vend\u00e9en",
+            "tier": 2,
+            "wiki": "/wiki/Petit_Basset_Griffon_Vend%C3%A9en",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e4/P_Basset_Griffon_Vendeen_600.jpg/220px-P_Basset_Griffon_Vendeen_600.jpg",
+            "id": [
+                21294902,
+                "99665928122094451937521891460264653520586865111288640927117897046251402166273",
+                "Petit Basset Griffon Vend\u00c3\u00a9en"
+            ],
+            "fname": "116_Petit_Basset_Griffon_Vend\u00e9en",
+            "bgr": [
+                36,
+                37,
+                35
+            ]
+        },
+        {
+            "rank": 117,
+            "name": "Tibetan Terrier",
+            "tier": 2,
+            "wiki": "/wiki/Tibetan_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Tibet_Terrier_Bennie_%28cropped%29.jpg/220px-Tibet_Terrier_Bennie_%28cropped%29.jpg",
+            "id": [
+                21294940,
+                "99665928122094451937521891460264653520586865111288640927117897047350913794049",
+                "Tibetan Terrier"
+            ],
+            "fname": "117_Tibetan_Terrier",
+            "bgr": [
+                17,
+                18,
+                16
+            ]
+        },
+        {
+            "rank": 118,
+            "name": "Japanese Chin",
+            "tier": 2,
+            "wiki": "/wiki/Japanese_Chin",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Japanese_Chin_adult.jpg/220px-Japanese_Chin_adult.jpg",
+            "id": [
+                21294998,
+                "99665928122094451937521891460264653520586865111288640927117897048450425421825",
+                "Japanese Chin"
+            ],
+            "fname": "118_Japanese_Chin",
+            "bgr": [
+                129,
+                124,
+                125
+            ]
+        },
+        {
+            "rank": 119,
+            "name": "Lakeland Terrier",
+            "tier": 2,
+            "wiki": "/wiki/Lakeland_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Lakeland_Terrier.jpg/220px-Lakeland_Terrier.jpg",
+            "id": [
+                21295045,
+                "99665928122094451937521891460264653520586865111288640927117897049549937049601",
+                "Lakeland Terrier"
+            ],
+            "fname": "119_Lakeland_Terrier",
+            "bgr": [
+                155,
+                208,
+                221
+            ]
+        },
+        {
+            "rank": 120,
+            "name": "Old English Sheepdog",
+            "tier": 2,
+            "wiki": "/wiki/Old_English_Sheepdog",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Old_English_Sheepdog_%28side%29.jpg/220px-Old_English_Sheepdog_%28side%29.jpg",
+            "id": [
+                21295102,
+                "99665928122094451937521891460264653520586865111288640927117897050649448677377",
+                "Old English Sheepdog"
+            ],
+            "fname": "120_Old_English_Sheepdog",
+            "bgr": [
+                13,
+                14,
+                18
+            ]
+        },
+        {
+            "rank": 121,
+            "name": "Pyrenean Mountain Dog",
+            "tier": 2,
+            "wiki": "/wiki/Great_Pyrenees",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Great_Pyrenees_Mountain_Dog.jpg/220px-Great_Pyrenees_Mountain_Dog.jpg",
+            "id": [
+                21295146,
+                "99665928122094451937521891460264653520586865111288640927117897051748960305153",
+                "Pyrenean Mountain Dog"
+            ],
+            "fname": "121_Pyrenean_Mountain_Dog",
+            "bgr": [
+                40,
+                100,
+                69
+            ]
+        },
+        {
+            "rank": 122,
+            "name": "Scottish Terrier",
+            "tier": 2,
+            "wiki": "/wiki/Scottish_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/0/07/Scottish_Terrier_Photo_of_Face.jpg/220px-Scottish_Terrier_Photo_of_Face.jpg",
+            "id": [
+                21295281,
+                "99665928122094451937521891460264653520586865111288640927117897052848471932929",
+                "Scottish Terrier"
+            ],
+            "fname": "122_Scottish_Terrier",
+            "bgr": [
+                197,
+                209,
+                219
+            ]
+        },
+        {
+            "rank": 123,
+            "name": "St. Bernard (dog)",
+            "tier": 2,
+            "wiki": "/wiki/St._Bernard_(dog)",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Hummel_Vedor_vd_Robandahoeve.jpg/220px-Hummel_Vedor_vd_Robandahoeve.jpg",
+            "id": [
+                21295336,
+                "99665928122094451937521891460264653520586865111288640927117897053947983560705",
+                "St. Bernard"
+            ],
+            "fname": "123_St._Bernard_(dog)",
+            "bgr": [
+                200,
+                198,
+                197
+            ]
+        },
+        {
+            "rank": 124,
+            "name": "Bull Terrier",
+            "tier": 2,
+            "wiki": "/wiki/Bull_Terrier",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/62/Bull_terrier_2.jpg/220px-Bull_terrier_2.jpg",
+            "id": [
+                21295403,
+                "99665928122094451937521891460264653520586865111288640927117897055047495188481",
+                "Bull Terrier"
+            ],
+            "fname": "124_Bull_Terrier",
+            "bgr": [
+                175,
+                172,
+                168
+            ]
+        },
+        {
+            "rank": 125,
+            "name": "Chihuahua (dog)",
+            "tier": 2,
+            "wiki": "/wiki/Chihuahua_(dog)",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Chihuahua1_bvdb.jpg/220px-Chihuahua1_bvdb.jpg",
+            "id": [
+                21295488,
+                "99665928122094451937521891460264653520586865111288640927117897056147006816257",
+                "Chihuahua"
+            ],
+            "fname": "125_Chihuahua_(dog)",
+            "bgr": [
+                124,
+                161,
+                205
+            ]
+        },
+        {
+            "rank": 126,
+            "name": "Lhasa Apso",
+            "tier": 2,
+            "wiki": "/wiki/Lhasa_Apso",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/8/87/Aishia.jpg/220px-Aishia.jpg",
+            "id": [
+                21295534,
+                "99665928122094451937521891460264653520586865111288640927117897057246518444033",
+                "Lhasa Apso"
+            ],
+            "fname": "126_Lhasa_Apso",
+            "bgr": [
+                181,
+                150,
+                183
+            ]
+        },
+        {
+            "rank": 127,
+            "name": "Bullmastiff",
+            "tier": 2,
+            "wiki": "/wiki/Bullmastiff",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Bullmastiff_edited.JPG/220px-Bullmastiff_edited.JPG",
+            "id": [
+                21295579,
+                "99665928122094451937521891460264653520586865111288640927117897058346030071809",
+                "Bullmastiff"
+            ],
+            "fname": "127_Bullmastiff",
+            "bgr": [
+                65,
+                79,
+                85
+            ]
+        },
+        {
+            "rank": 128,
+            "name": "Shih Tzu",
+            "tier": 1,
+            "wiki": "/wiki/Shih_Tzu",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Shihtzu_%28cropped%29.jpg/220px-Shihtzu_%28cropped%29.jpg",
+            "id": [
+                21295662,
+                "99665928122094451937521891460264653520586865111288640927117897059445541699585",
+                "Shih Tzu"
+            ],
+            "fname": "128_Shih_Tzu",
+            "bgr": [
+                78,
+                22,
+                181
+            ]
+        },
+        {
+            "rank": 129,
+            "name": "Basset Hound",
+            "tier": 1,
+            "wiki": "/wiki/Basset_Hound",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/BassetHound_profil.jpg/220px-BassetHound_profil.jpg",
+            "id": [
+                21295778,
+                "99665928122094451937521891460264653520586865111288640927117897060545053327361",
+                "Basset Hound"
+            ],
+            "fname": "129_Basset_Hound",
+            "bgr": [
+                12,
+                43,
+                112
+            ]
+        },
+        {
+            "rank": 131,
+            "name": "Beagle",
+            "tier": 1,
+            "wiki": "/wiki/Beagle",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/5/55/Beagle_600.jpg/220px-Beagle_600.jpg",
+            "id": [
+                21295812,
+                "99665928122094451937521891460264653520586865111288640927117897061644564955137",
+                "Beagle"
+            ],
+            "fname": "131_Beagle",
+            "bgr": [
+                108,
+                140,
+                169
+            ]
+        },
+        {
+            "rank": 132,
+            "name": "Pekingese",
+            "tier": 1,
+            "wiki": "/wiki/Pekingese",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/2/24/1AKC_Pekingese_Dog_Show_2011.jpg/220px-1AKC_Pekingese_Dog_Show_2011.jpg",
+            "id": [
+                21296175,
+                "99665928122094451937521891460264653520586865111288640927117897062744076582913",
+                "Pekingese"
+            ],
+            "fname": "132_Pekingese",
+            "bgr": [
+                71,
+                93,
+                118
+            ]
+        },
+        {
+            "rank": 133,
+            "name": "Bloodhound",
+            "tier": 1,
+            "wiki": "/wiki/Bloodhound",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Bloodhound_Erland22.jpg/220px-Bloodhound_Erland22.jpg",
+            "id": [
+                21296259,
+                "99665928122094451937521891460264653520586865111288640927117897063843588210689",
+                "Bloodhound"
+            ],
+            "fname": "133_Bloodhound",
+            "bgr": [
+                103,
+                52,
+                19
+            ]
+        },
+        {
+            "rank": 134,
+            "name": "Borzoi",
+            "tier": 1,
+            "wiki": "/wiki/Borzoi",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/d/de/Chart_rosyjski_borzoj_rybnik-kamien_pl.jpg/220px-Chart_rosyjski_borzoj_rybnik-kamien_pl.jpg",
+            "id": [
+                21296482,
+                "99665928122094451937521891460264653520586865111288640927117897064943099838465",
+                "Borzoi"
+            ],
+            "fname": "134_Borzoi",
+            "bgr": [
+                48,
+                78,
+                79
+            ]
+        },
+        {
+            "rank": 135,
+            "name": "Chow Chow",
+            "tier": 1,
+            "wiki": "/wiki/Chow_Chow",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/ChowChow2Szczecin.jpg/220px-ChowChow2Szczecin.jpg",
+            "id": [
+                21307228,
+                "99665928122094451937521891460264653520586865111288640927117897066042611466241",
+                "Chow Chow"
+            ],
+            "fname": "135_Chow_Chow",
+            "bgr": [
+                121,
+                149,
+                166
+            ]
+        },
+        {
+            "rank": 136,
+            "name": "Bulldog",
+            "tier": 1,
+            "wiki": "/wiki/Bulldog",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Bulldog_adult_male.jpg/220px-Bulldog_adult_male.jpg",
+            "id": [
+                21307270,
+                "99665928122094451937521891460264653520586865111288640927117897067142123094017",
+                "Bulldog"
+            ],
+            "fname": "136_Bulldog",
+            "bgr": [
+                12,
+                20,
+                19
+            ]
+        },
+        {
+            "rank": 137,
+            "name": "Basenji",
+            "tier": 1,
+            "wiki": "/wiki/Basenji",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Basenji_Profile_%28loosercrop%29.jpg/220px-Basenji_Profile_%28loosercrop%29.jpg",
+            "id": [
+                21307311,
+                "99665928122094451937521891460264653520586865111288640927117897068241634721793",
+                "Basenji"
+            ],
+            "fname": "137_Basenji",
+            "bgr": [
+                10,
+                40,
+                95
+            ]
+        },
+        {
+            "rank": 138,
+            "name": "Afghan Hound",
+            "tier": 1,
+            "wiki": "/wiki/Afghan_Hound",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/6/69/Afghane.jpg/220px-Afghane.jpg",
+            "id": [
+                21307364,
+                "99665928122094451937521891460264653520586865111288640927117897069341146349569",
+                "Afghan Hound"
+            ],
+            "fname": "138_Afghan_Hound",
+            "bgr": [
+                165,
+                176,
+                190
+            ]
+        },
+        {
+            "rank": 143,
+            "name": "A Scanner Darkly (film)",
+            "tier": 0,
+            "wiki": "/wiki/A_Scanner_Darkly_(film)",
+            "img": "//upload.wikimedia.org/wikipedia/en/7/75/A_Scanner_Darkly_Poster.jpg",
+            "fname": "bg",
+            "bgr": [
+                130,
+                147,
+                173
+            ]
+        },
+        {
+            "rank": 144,
+            "name": "The Intelligence of Dogs",
+            "tier": 7,
+            "wiki": "/wiki/The_Intelligence_of_Dogs",
+            "img": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Paw_and_pads.jpg/250px-Paw_and_pads.jpg",
+            "fname": "logo",
+            "bgr": [
+                154,
+                171,
+                184
+            ]
+        }
+    ],
+    "colors": {
+        "0": [
+            255,
+            255,
+            255
+        ],
+        "1": [
+            24,
+            35,
+            145
+        ],
+        "2": [
+            2,
+            93,
+            238
+        ],
+        "3": [
+            60,
+            237,
+            229
+        ],
+        "4": [
+            46,
+            168,
+            128
+        ],
+        "5": [
+            188,
+            107,
+            73
+        ],
+        "6": [
+            89,
+            53,
+            59
+        ],
+        "7": [
+            0,
+            0,
+            0
+        ],
+        "bg": [
+            144,
+            81,
+            43
+        ]
+    }
+}
