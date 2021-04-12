@@ -13964,7 +13964,7 @@ while(true)switch(s){case 0:if($.bb==null)N.a4C()
 $.bb.toString
 o=T
 s=2
-return P.a7($.ZP().UU("config.json"),$async$Zs)
+return P.a7($.ZP().UU("data/config.json"),$async$Zs)
 case 2:q=o.abH(b)
 if($.bb==null)N.a4C()
 p=$.bb
