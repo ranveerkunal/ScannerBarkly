@@ -2,17 +2,18 @@
     "primary_asset_contracts": [],
     "traits": {},
     "stats": {
-        "seven_day_volume": 0.6619,
-        "total_volume": 0.6619,
-        "seven_day_change": 0.0,
-        "seven_day_sales": 8.0,
-        "total_sales": 8.0,
+        "seven_day_volume": 0.0603,
+        "total_volume": 0.6931,
+        "seven_day_change": -0.9047092288242731,
+        "seven_day_sales": 6.0,
+        "total_sales": 11.0,
         "total_supply": 132.0,
         "count": 132.0,
-        "num_owners": 9,
-        "seven_day_average_price": 0.0827375,
-        "average_price": 0.0827375,
-        "market_cap": 10.92135
+        "num_owners": 11,
+        "seven_day_average_price": 0.01005,
+        "average_price": 0.06300909090909092,
+        "num_reports": 0,
+        "market_cap": 1.3266
     },
     "banner_image_url": "https://lh3.googleusercontent.com/BZN2rPfCT866QpVw-vjiraQrLorMJLZ-uT_yHij_dEkOxUVbvDpy9wAtUdC-aoi7Gq4BYdTShefWPciEHdut6xY-WcWkgv5iVuPw=s2500",
     "chat_url": null,
@@ -30,7 +31,7 @@
     "featured_image_url": "https://lh3.googleusercontent.com/U8f6jqYJ4f1VS6xY25W7KVszlBO2NQyciCUlJHwoavgxAF_IGAK3my4eKwADJy2d_ubhUD9r2-9vsREZLnsN8hHrXZ8xN_p5un2f=s300",
     "hidden": true,
     "safelist_request_status": "not_requested",
-    "image_url": "https://lh3.googleusercontent.com/WP8zAL03U1cbCXVGRahJGhM535kxUtRbmF7fJXPT_OlBGP1OUwdOPVFdgvR_Bmqm8ES2TY3z2tsTL4HRh_nizo96--tofRMi2TE_eg=s120",
+    "image_url": "https://lh3.googleusercontent.com/loFoAYdhYmoAGgcD0smonEqp1fei9I-ukJSAbJLSINikI9DNdo91lP2j4sxXV3ZaNRfayGfVC6gyl6fKhjC-raZu8mHbWwRyTKCUUVE=s120",
     "is_subject_to_whitelist": false,
     "large_image_url": "https://lh3.googleusercontent.com/U8f6jqYJ4f1VS6xY25W7KVszlBO2NQyciCUlJHwoavgxAF_IGAK3my4eKwADJy2d_ubhUD9r2-9vsREZLnsN8hHrXZ8xN_p5un2f=s300",
     "medium_username": null,
@@ -44,7 +45,7 @@
     "slug": "scannerbarkly",
     "telegram_url": null,
     "twitter_username": null,
-    "instagram_username": null,
+    "instagram_username": "scannerdarkly.art",
     "wiki_url": null,
-    "owned_asset_count": 126
+    "owned_asset_count": 123
 }

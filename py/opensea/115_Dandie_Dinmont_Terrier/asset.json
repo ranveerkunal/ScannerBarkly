@@ -63,7 +63,7 @@
         "featured_image_url": "https://lh3.googleusercontent.com/U8f6jqYJ4f1VS6xY25W7KVszlBO2NQyciCUlJHwoavgxAF_IGAK3my4eKwADJy2d_ubhUD9r2-9vsREZLnsN8hHrXZ8xN_p5un2f=s300",
         "hidden": true,
         "safelist_request_status": "not_requested",
-        "image_url": "https://lh3.googleusercontent.com/WP8zAL03U1cbCXVGRahJGhM535kxUtRbmF7fJXPT_OlBGP1OUwdOPVFdgvR_Bmqm8ES2TY3z2tsTL4HRh_nizo96--tofRMi2TE_eg=s120",
+        "image_url": "https://lh3.googleusercontent.com/loFoAYdhYmoAGgcD0smonEqp1fei9I-ukJSAbJLSINikI9DNdo91lP2j4sxXV3ZaNRfayGfVC6gyl6fKhjC-raZu8mHbWwRyTKCUUVE=s120",
         "is_subject_to_whitelist": false,
         "large_image_url": "https://lh3.googleusercontent.com/U8f6jqYJ4f1VS6xY25W7KVszlBO2NQyciCUlJHwoavgxAF_IGAK3my4eKwADJy2d_ubhUD9r2-9vsREZLnsN8hHrXZ8xN_p5un2f=s300",
         "medium_username": null,
@@ -77,7 +77,7 @@
         "slug": "scannerbarkly",
         "telegram_url": null,
         "twitter_username": null,
-        "instagram_username": null,
+        "instagram_username": "scannerdarkly.art",
         "wiki_url": null
     },
     "decimals": null,
@@ -145,7 +145,7 @@
                 "name": "Ether",
                 "decimals": 18,
                 "eth_price": "1.000000000000000",
-                "usd_price": "2010.809999999999945000"
+                "usd_price": "2212.090000000000146000"
             },
             "base_price": "8700000000000000",
             "extra": "0",

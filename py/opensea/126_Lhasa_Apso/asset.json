@@ -1,7 +1,7 @@
 {
     "id": 21295534,
     "token_id": "99665928122094451937521891460264653520586865111288640927117897057246518444033",
-    "num_sales": 0,
+    "num_sales": 1,
     "background_color": null,
     "image_url": "https://lh3.googleusercontent.com/swzAy3ZRDM1ZQ0cdKe0kK4WD9E1HhAfFUg99npPQbKVg28xuF5iDYLnYZnsqmGd7fSaX3E6xPjrFWEsCw6ded9F12u9S3INtMpTVxg",
     "image_preview_url": "https://lh3.googleusercontent.com/swzAy3ZRDM1ZQ0cdKe0kK4WD9E1HhAfFUg99npPQbKVg28xuF5iDYLnYZnsqmGd7fSaX3E6xPjrFWEsCw6ded9F12u9S3INtMpTVxg=s250",
@@ -63,7 +63,7 @@
         "featured_image_url": "https://lh3.googleusercontent.com/U8f6jqYJ4f1VS6xY25W7KVszlBO2NQyciCUlJHwoavgxAF_IGAK3my4eKwADJy2d_ubhUD9r2-9vsREZLnsN8hHrXZ8xN_p5un2f=s300",
         "hidden": true,
         "safelist_request_status": "not_requested",
-        "image_url": "https://lh3.googleusercontent.com/WP8zAL03U1cbCXVGRahJGhM535kxUtRbmF7fJXPT_OlBGP1OUwdOPVFdgvR_Bmqm8ES2TY3z2tsTL4HRh_nizo96--tofRMi2TE_eg=s120",
+        "image_url": "https://lh3.googleusercontent.com/loFoAYdhYmoAGgcD0smonEqp1fei9I-ukJSAbJLSINikI9DNdo91lP2j4sxXV3ZaNRfayGfVC6gyl6fKhjC-raZu8mHbWwRyTKCUUVE=s120",
         "is_subject_to_whitelist": false,
         "large_image_url": "https://lh3.googleusercontent.com/U8f6jqYJ4f1VS6xY25W7KVszlBO2NQyciCUlJHwoavgxAF_IGAK3my4eKwADJy2d_ubhUD9r2-9vsREZLnsN8hHrXZ8xN_p5un2f=s300",
         "medium_username": null,
@@ -77,90 +77,11 @@
         "slug": "scannerbarkly",
         "telegram_url": null,
         "twitter_username": null,
-        "instagram_username": null,
+        "instagram_username": "scannerdarkly.art",
         "wiki_url": null
     },
     "decimals": null,
-    "sell_orders": [
-        {
-            "created_date": "2021-04-05T22:43:43.916251",
-            "closing_date": null,
-            "closing_extendable": false,
-            "expiration_time": 0,
-            "listing_time": 1617662520,
-            "order_hash": "0xd618338f650b1a34226504121599ee524ab85db355a6c9a6c3a8ec2576fabb8f",
-            "metadata": {
-                "asset": {
-                    "id": "99665928122094451937521891460264653520586865111288640927117897057246518444033",
-                    "address": "0x495f947276749ce646f68ac8c248420045cb7b5e",
-                    "quantity": "1"
-                },
-                "schema": "ERC1155"
-            },
-            "exchange": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
-            "maker": {
-                "user": 563437,
-                "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/31.png",
-                "address": "0xdc58ea900b5fe2502947eea686c9a485d4a58684",
-                "config": "",
-                "discord_id": ""
-            },
-            "taker": {
-                "user": 1766,
-                "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/1.png",
-                "address": "0x0000000000000000000000000000000000000000",
-                "config": "",
-                "discord_id": ""
-            },
-            "current_price": "7900000000000000",
-            "current_bounty": "79000000000000",
-            "bounty_multiple": "0.01",
-            "maker_relayer_fee": "1250",
-            "taker_relayer_fee": "0",
-            "maker_protocol_fee": "0",
-            "taker_protocol_fee": "0",
-            "maker_referrer_fee": "0",
-            "fee_recipient": {
-                "user": 3585,
-                "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/28.png",
-                "address": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-                "config": "verified",
-                "discord_id": ""
-            },
-            "fee_method": 1,
-            "side": 1,
-            "sale_kind": 0,
-            "target": "0x495f947276749ce646f68ac8c248420045cb7b5e",
-            "how_to_call": 0,
-            "calldata": "0xf242432a000000000000000000000000dc58ea900b5fe2502947eea686c9a485d4a586840000000000000000000000000000000000000000000000000000000000000000dc58ea900b5fe2502947eea686c9a485d4a586840000000000007b0000000001000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000",
-            "replacement_pattern": "0x000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-            "static_target": "0x0000000000000000000000000000000000000000",
-            "static_extradata": "0x",
-            "payment_token": "0x0000000000000000000000000000000000000000",
-            "payment_token_contract": {
-                "id": 1,
-                "symbol": "ETH",
-                "address": "0x0000000000000000000000000000000000000000",
-                "image_url": "https://lh3.googleusercontent.com/7hQyiGtBt8vmUTq4T0aIUhIhT00dPhnav87TuFQ5cLtjlk724JgXdjQjoH_CzYz-z37JpPuMFbRRQuyC7I9abyZRKA",
-                "name": "Ether",
-                "decimals": 18,
-                "eth_price": "1.000000000000000",
-                "usd_price": "2010.809999999999945000"
-            },
-            "base_price": "7900000000000000",
-            "extra": "0",
-            "quantity": "1",
-            "salt": "8401469386536731440355201469172189504717660526328633806563493048063207139394",
-            "v": 27,
-            "r": "0x4c9098937f7477a508381cf82e86835f2ec684555c4521f8aac46211194df55c",
-            "s": "0x33ee567fa08c7b599a0278922b555402c20e203199b1edb9d458ce3565348a62",
-            "approved_on_chain": false,
-            "cancelled": false,
-            "finalized": false,
-            "marked_invalid": false,
-            "prefixed_hash": "0x145ae3ed2eb1ffc2e8dc88d86ebdb34a93dec6ab758fdd0cc101fc8dff91a96d"
-        }
-    ],
+    "sell_orders": [],
     "creator": {
         "user": {
             "username": "ScannerBarkly"
@@ -188,7 +109,55 @@
             "order": null
         }
     ],
-    "last_sale": null,
+    "last_sale": {
+        "asset": {
+            "token_id": "99665928122094451937521891460264653520586865111288640927117897057246518444033",
+            "decimals": null
+        },
+        "asset_bundle": null,
+        "event_type": "successful",
+        "event_timestamp": "2021-04-08T20:54:26",
+        "auction_type": null,
+        "total_price": "7900000000000000",
+        "payment_token": {
+            "id": 1,
+            "symbol": "ETH",
+            "address": "0x0000000000000000000000000000000000000000",
+            "image_url": "https://lh3.googleusercontent.com/7hQyiGtBt8vmUTq4T0aIUhIhT00dPhnav87TuFQ5cLtjlk724JgXdjQjoH_CzYz-z37JpPuMFbRRQuyC7I9abyZRKA",
+            "name": "Ether",
+            "decimals": 18,
+            "eth_price": "1.000000000000000",
+            "usd_price": "2212.090000000000146000"
+        },
+        "transaction": {
+            "block_hash": "0xdda1cbff4e3059daa0fd7d02822c3b8fc519ff123dd8473b82460ab2bbda86aa",
+            "block_number": "12201476",
+            "from_account": {
+                "user": {
+                    "username": "louli_snowball"
+                },
+                "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/20.png",
+                "address": "0x72023f4287a37af1f100afb57857e0ce771db6d5",
+                "config": "",
+                "discord_id": ""
+            },
+            "id": 98649769,
+            "timestamp": "2021-04-08T20:54:26",
+            "to_account": {
+                "user": {
+                    "username": "OpenSea-Orders"
+                },
+                "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/22.png",
+                "address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+                "config": "verified",
+                "discord_id": ""
+            },
+            "transaction_hash": "0xa0a37c7f052a922caa12eeb6fb6fb014535bf3985001bf0287b1dc1b54494dd4",
+            "transaction_index": "114"
+        },
+        "created_date": "2021-04-08T20:54:44.257775",
+        "quantity": "1"
+    },
     "top_bid": null,
     "listing_date": null,
     "is_presale": true,
