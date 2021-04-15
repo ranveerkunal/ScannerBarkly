@@ -30,6 +30,8 @@ class _TileState extends State<Tile> {
           (t) => setState(() => index = rand.nextInt(12) == 0 ? 1 : 0),
         ),
       );
+    } else {
+      index = 1;
     }
   }
 
