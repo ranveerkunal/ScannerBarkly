@@ -7,6 +7,8 @@ class Display extends StatelessWidget {
   Widget build(BuildContext context) {
     final selected = context.watch<ValueNotifier<Selected?>>();
     if (selected.value == null) return Container();
-    return Center(child: Image(image: selected.value!.img));
+    return Center(
+      child: Image(image: selected.value!.img, gaplessPlayback: true),
+    );
   }
 }
