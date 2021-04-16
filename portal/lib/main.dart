@@ -2,6 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:google_fonts/google_fonts.dart';
 import 'package:portal/collage.dart';
 import 'package:portal/config.dart';
 import 'package:portal/display.dart';
@@ -17,17 +18,22 @@ void main() async {
 
 class MyApp extends StatelessWidget {
   final Config config;
+  final CollectionModel model;
 
-  MyApp(this.config);
+  MyApp(this.config) : model = CollectionModel(config.slug);
 
   @override
   Widget build(BuildContext context) {
-    final model = CollectionModel(config.slug);
     return Provider.value(
       value: config,
       child: MaterialApp(
         title: 'ScannerBarkly',
-        theme: ThemeData(primarySwatch: createMaterialColor(config.bg)),
+        theme: ThemeData(
+          primarySwatch: createMaterialColor(config.bg),
+          textTheme: GoogleFonts.robotoMonoTextTheme(
+            Theme.of(context).textTheme,
+          ),
+        ),
         home: ChangeNotifierProvider.value(value: model, child: MyHomePage()),
       ),
     );
@@ -49,21 +55,24 @@ class MyHomePage extends StatelessWidget {
         body: ChangeNotifierProvider.value(
           value: selected,
           child: Wrap(children: [
-            Container(
-              height: ss.height > ss.width ? ss.height - ss.width : ss.height,
-              width: ss.height > ss.width ? ss.width : ss.width - ss.height,
-              color: bg,
-              child: Padding(
-                padding: EdgeInsets.all(40 * scale),
-                child: Builder(builder: (BuildContext context) {
-                  if (context.watch<ValueNotifier<Selected?>>().value == null) {
-                    return Container();
-                  }
-                  return Display();
-                }),
+            Provider<double>.value(
+              value:
+                  (max(ss.height, ss.width) - min(ss.height, ss.width)) / 500,
+              child: Container(
+                height: ss.height > ss.width ? ss.height - ss.width : ss.height,
+                width: ss.height > ss.width ? ss.width : ss.width - ss.height,
+                color: bg,
+                child: Center(
+                  child: Display(
+                    max(ss.height, ss.width) - min(ss.height, ss.width),
+                  ),
+                ),
               ),
             ),
-            Collage(model),
+            Provider<double>.value(
+              value: min(ss.height, ss.width) / 500,
+              child: Collage(model),
+            ),
           ]),
         ),
       ),

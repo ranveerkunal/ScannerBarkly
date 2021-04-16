@@ -24,9 +24,9 @@ class _TileState extends State<Tile> {
   void initState() {
     super.initState();
     if (widget.config.rank < 143) {
-      Future.delayed(Duration(seconds: rand.nextInt(5))).then(
+      Future.delayed(Duration(seconds: rand.nextInt(12))).then(
         (value) => Timer.periodic(
-          Duration(seconds: 5),
+          Duration(seconds: 3),
           (t) => setState(() => index = rand.nextInt(12) == 0 ? 1 : 0),
         ),
       );
@@ -38,9 +38,14 @@ class _TileState extends State<Tile> {
   @override
   Widget build(BuildContext context) {
     final bg = Container(color: widget.config.bg);
-    final fg = widget.img != null ? Image(image: widget.img!) : bg;
+    final fg = widget.img != null
+        ? Image(
+            image: widget.img!,
+            gaplessPlayback: true,
+          )
+        : bg;
     return AnimatedSwitcher(
-      duration: Duration(seconds: 5),
+      duration: Duration(seconds: 3),
       child: [bg, fg][index],
     );
   }
@@ -57,7 +62,8 @@ class GestureTile extends StatefulWidget {
   final Map<String, dynamic>? asset;
   final TileConfig config;
 
-  GestureTile(this.asset, this.config);
+  GestureTile({Key? key, required this.asset, required this.config})
+      : super(key: key);
 
   @override
   _GestureTileState createState() => _GestureTileState();

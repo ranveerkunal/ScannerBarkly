@@ -44,26 +44,41 @@ class Collage extends StatelessWidget {
             child: Container(
               height: 420 * scale,
               width: 420 * scale,
-              child: GridView.count(
-                primary: false,
-                crossAxisCount: 12,
-                children: List<int>.generate(12, (i) => i)
-                    .map((r) => r % 2 == 0
-                        ? List<int>.generate(12, (c) => 12 * r + c + 1)
-                        : List<int>.generate(12, (c) => 12 * r + c + 1)
-                            .reversed)
-                    .expand((i) => i)
-                    .map((i) {
-                  final tc = config.tiles[i];
-                  return tc == null
-                      ? Container(color: config.bg)
-                      : GestureTile(model.getAsset(tc.id), tc);
-                }).toList(),
-              ),
+              child: TheGrid(config, model),
             ),
           ),
         ],
       ),
+    );
+  }
+}
+
+class TheGrid extends StatelessWidget {
+  final Config config;
+  final CollectionModel model;
+
+  const TheGrid(this.config, this.model);
+
+  @override
+  Widget build(BuildContext context) {
+    final tiles = List<int>.generate(12, (i) => i)
+        .map((r) => r % 2 == 0
+            ? List<int>.generate(12, (c) => 12 * r + c + 1)
+            : List<int>.generate(12, (c) => 12 * r + c + 1).reversed)
+        .expand((i) => i);
+    return GridView.count(
+      primary: false,
+      crossAxisCount: 12,
+      children: tiles.map((i) {
+        final tc = config.tiles[i];
+        return tc == null
+            ? Container(color: config.bg)
+            : GestureTile(
+                key: ValueKey<int>(tc.rank),
+                asset: model.getAsset(tc.id),
+                config: tc,
+              );
+      }).toList(),
     );
   }
 }
