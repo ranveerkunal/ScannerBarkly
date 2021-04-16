@@ -57,8 +57,16 @@ class Display extends StatelessWidget {
             ),
           ),
           Positioned(
+            left: 32,
             top: 32,
-            child: Text(tc.name, style: TextStyle(color: Colors.white)),
+            child: Text('ScannerBarkly', style: TextStyle(color: Colors.white)),
+          ),
+          Positioned(
+            top: 32,
+            child: Text(
+              tc.name,
+              style: TextStyle(color: config.palette['${tc.tier}']),
+            ),
           ),
         ],
       ),
