@@ -5,12 +5,12 @@ const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "b83dab59c9c3ffcf62a9d640d59d3ba0",
 "favicon.ico": "aa79aff5a4c5a50d406ff15a4c94dce1",
-"index.html": "05ed6ac161eb3bb3d28eac136aaf7c02",
-"/": "05ed6ac161eb3bb3d28eac136aaf7c02",
-"main.dart.js": "12e4ff3f0fd65d03c7828dc150307c35",
+"index.html": "84af4bdb27eea4c29ff0542006217871",
+"/": "84af4bdb27eea4c29ff0542006217871",
+"main.dart.js": "31f81c54c4ab0c5fc281405630a39fc6",
 "manifest.json": "2b6b58b7551911c53ab7d9d055ca9786",
 "assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
-"assets/NOTICES": "3c3d2f5b2fcf9103d931a4f3ff185fdb",
+"assets/NOTICES": "f47bb310a352e2c443f1f86ef0e8e9ce",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac"
