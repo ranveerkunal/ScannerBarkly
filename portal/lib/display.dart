@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:portal/config.dart';
-import 'package:portal/ribbon.dart';
 import 'package:portal/tile.dart';
 import 'package:provider/provider.dart';
 
@@ -18,28 +17,18 @@ class Display extends StatelessWidget {
     final tc = config.tiles[rank]!;
     final scale = context.read<double>();
     return Container(
-      color: config.palette['7'],
+      alignment: Alignment.center,
       height: size,
       width: size,
-      child: Stack(
-        alignment: Alignment.center,
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Positioned.fill(
-            top: 140 * scale,
-            bottom: (140 + 32) * scale,
-            child: Ribbon(
-              girth: 32 * scale,
-              orientation: Orientation.landscape,
-              color: config.palette['0'],
-            ),
-          ),
-          Positioned.fill(
-            left: 140 * scale,
-            right: (140 + 32) * scale,
-            child: Ribbon(
-              girth: 32 * scale,
-              orientation: Orientation.portrait,
-              color: config.palette['0'],
+          Container(
+            height: 40 * scale,
+            alignment: Alignment.center,
+            child: Text(
+              tc.name,
+              style: TextStyle(color: config.palette['7']),
             ),
           ),
           FittedBox(
@@ -52,20 +41,9 @@ class Display extends StatelessWidget {
               width: 420 * scale,
             ),
           ),
-          Positioned(
-            left: 32,
-            top: 32,
-            child: Text(
-              'ScannerBarkly',
-              style: TextStyle(color: config.palette['0']),
-            ),
-          ),
-          Positioned(
-            top: 32,
-            child: Text(
-              tc.name,
-              style: TextStyle(color: config.palette['${tc.tier}']),
-            ),
+          Container(
+            height: 40 * scale,
+            alignment: Alignment.center,
           ),
         ],
       ),

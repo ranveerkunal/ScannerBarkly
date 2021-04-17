@@ -30,7 +30,6 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'ScannerBarkly',
         theme: ThemeData(
-          primarySwatch: createMaterialColor(config.bg),
           textTheme: GoogleFonts.robotoMonoTextTheme(
             Theme.of(context).textTheme,
           ),
@@ -51,15 +50,14 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final ss = MediaQuery.of(context).size;
-    final bg = context.read<Config>().palette['7'];
     final model = context.watch<CollectionModel>();
+    final config = context.read<Config>();
     final children = [
       Provider<double>.value(
         value: max(ss.height, ss.width) / 1000,
         child: Container(
           height: max(ss.height, ss.width) / 2,
           width: max(ss.height, ss.width) / 2,
-          color: bg,
           child: Display(
             key: ValueKey<int>(
               context.watch<ValueNotifier<Selected?>>().value?.rank ?? 0,
@@ -75,7 +73,7 @@ class MyHomePage extends StatelessWidget {
     ];
     return Scaffold(
       body: Container(
-        color: bg,
+        color: config.palette['bg']!,
         child: Center(
           child: ss.width > ss.height
               ? Row(
