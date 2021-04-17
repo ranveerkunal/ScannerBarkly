@@ -25,10 +25,12 @@ class _TileState extends State<Tile> {
     super.initState();
     if (widget.config.rank < 143) {
       Future.delayed(Duration(seconds: rand.nextInt(12))).then(
-        (value) => Timer.periodic(
-          Duration(seconds: 3),
-          (t) => setState(() => index = rand.nextInt(12) == 0 ? 1 : 0),
-        ),
+        (value) {
+          return Timer.periodic(
+            Duration(seconds: 3),
+            (t) => setState(() => index = rand.nextInt(12) == 0 ? 1 : 0),
+          );
+        },
       );
     } else {
       index = 1;
@@ -81,6 +83,12 @@ class _GestureTileState extends State<GestureTile> {
       img = AssetImage('data/cover.jpg');
     } else if (widget.config.rank == 144) {
       img = AssetImage('data/logo.jpg');
+    }
+    if (widget.config.rank == 144 && img != null) {
+      final selected = context.read<ValueNotifier<Selected?>>();
+      Timer.run(() {
+        if (selected.value == null) selected.value = Selected(144, img!);
+      });
     }
   }
 

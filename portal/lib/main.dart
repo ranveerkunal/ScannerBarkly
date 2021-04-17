@@ -19,6 +19,7 @@ void main() async {
 class MyApp extends StatelessWidget {
   final Config config;
   final CollectionModel model;
+  final ValueNotifier<Selected?> selected = ValueNotifier<Selected?>(null);
 
   MyApp(this.config) : model = CollectionModel(config.slug);
 
@@ -34,47 +35,50 @@ class MyApp extends StatelessWidget {
             Theme.of(context).textTheme,
           ),
         ),
-        home: ChangeNotifierProvider.value(value: model, child: MyHomePage()),
+        home: ChangeNotifierProvider.value(
+          value: model,
+          child: ChangeNotifierProvider.value(
+            value: selected,
+            child: Builder(builder: (BuildContext context) => MyHomePage()),
+          ),
+        ),
       ),
     );
   }
 }
 
 class MyHomePage extends StatelessWidget {
-  final ValueNotifier<Selected?> selected = ValueNotifier<Selected?>(null);
-
   @override
   Widget build(BuildContext context) {
     final ss = MediaQuery.of(context).size;
     final scale = min(ss.height, ss.width) / 500;
-    final bg = context.read<Config>().bg;
+    final bg = context.read<Config>().palette['7'];
     final model = context.watch<CollectionModel>();
     return Provider<double>.value(
       value: scale,
       child: Scaffold(
-        body: ChangeNotifierProvider.value(
-          value: selected,
-          child: Wrap(children: [
-            Provider<double>.value(
-              value:
-                  (max(ss.height, ss.width) - min(ss.height, ss.width)) / 500,
-              child: Container(
-                height: ss.height > ss.width ? ss.height - ss.width : ss.height,
-                width: ss.height > ss.width ? ss.width : ss.width - ss.height,
-                color: bg,
-                child: Center(
-                  child: Display(
-                    max(ss.height, ss.width) - min(ss.height, ss.width),
-                  ),
+        body: Wrap(children: [
+          Provider<double>.value(
+            value: (max(ss.height, ss.width) - min(ss.height, ss.width)) / 500,
+            child: Container(
+              height: ss.height > ss.width ? ss.height - ss.width : ss.height,
+              width: ss.height > ss.width ? ss.width : ss.width - ss.height,
+              color: bg,
+              child: Center(
+                child: Display(
+                  key: ValueKey<int>(
+                      context.watch<ValueNotifier<Selected?>>().value?.rank ??
+                          0),
+                  size: max(ss.height, ss.width) - min(ss.height, ss.width),
                 ),
               ),
             ),
-            Provider<double>.value(
-              value: min(ss.height, ss.width) / 500,
-              child: Collage(model),
-            ),
-          ]),
-        ),
+          ),
+          Provider<double>.value(
+            value: min(ss.height, ss.width) / 500,
+            child: Collage(model),
+          ),
+        ]),
       ),
     );
   }
