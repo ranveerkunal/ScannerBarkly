@@ -30,9 +30,9 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'ScannerBarkly',
         theme: ThemeData(
-          textTheme: GoogleFonts.robotoMonoTextTheme(
-            Theme.of(context).textTheme,
-          ),
+          textTheme:
+              GoogleFonts.robotoMonoTextTheme(Theme.of(context).textTheme)
+                  .apply(bodyColor: Colors.white),
         ),
         home: ChangeNotifierProvider.value(
           value: model,

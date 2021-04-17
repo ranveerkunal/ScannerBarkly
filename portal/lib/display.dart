@@ -26,10 +26,7 @@ class Display extends StatelessWidget {
           Container(
             height: 40 * scale,
             alignment: Alignment.center,
-            child: Text(
-              tc.name,
-              style: TextStyle(color: config.palette['7']),
-            ),
+            child: Text(tc.name),
           ),
           FittedBox(
             fit: BoxFit.cover,
