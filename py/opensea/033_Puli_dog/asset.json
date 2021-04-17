@@ -9,7 +9,7 @@
     "image_original_url": null,
     "animation_url": null,
     "animation_original_url": null,
-    "name": "Puli dog",
+    "name": "Puli Dog",
     "description": "```\n{\n    \"rank\": 33,\n    \"name\": \"Puli dog\",\n    \"tier\": 4,\n    \"wiki\": \"/wiki/Puli_dog\",\n    \"img\": \"//upload.wikimedia.org/wikipedia/commons/thumb/a/ab/PuliBlack_wb.jpg/220px-PuliBlack_wb.jpg\"\n}\n```",
     "external_link": null,
     "asset_contract": {
@@ -145,7 +145,7 @@
                 "name": "Ether",
                 "decimals": 18,
                 "eth_price": "1.000000000000000",
-                "usd_price": "2212.090000000000146000"
+                "usd_price": "2426.900000000000091000"
             },
             "base_price": "30300000000000000",
             "extra": "0",

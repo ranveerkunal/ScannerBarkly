@@ -2,18 +2,18 @@
     "primary_asset_contracts": [],
     "traits": {},
     "stats": {
-        "seven_day_volume": 0.0603,
+        "seven_day_volume": 0.0,
         "total_volume": 0.6931,
-        "seven_day_change": -0.9047092288242731,
-        "seven_day_sales": 6.0,
+        "seven_day_change": -1.0,
+        "seven_day_sales": 0.0,
         "total_sales": 11.0,
         "total_supply": 132.0,
         "count": 132.0,
         "num_owners": 11,
-        "seven_day_average_price": 0.01005,
+        "seven_day_average_price": 0.0,
         "average_price": 0.06300909090909092,
         "num_reports": 0,
-        "market_cap": 1.3266
+        "market_cap": 0.0
     },
     "banner_image_url": "https://lh3.googleusercontent.com/BZN2rPfCT866QpVw-vjiraQrLorMJLZ-uT_yHij_dEkOxUVbvDpy9wAtUdC-aoi7Gq4BYdTShefWPciEHdut6xY-WcWkgv5iVuPw=s2500",
     "chat_url": null,

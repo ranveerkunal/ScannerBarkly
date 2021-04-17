@@ -127,7 +127,7 @@
             "name": "Ether",
             "decimals": 18,
             "eth_price": "1.000000000000000",
-            "usd_price": "2212.090000000000146000"
+            "usd_price": "2426.900000000000091000"
         },
         "transaction": {
             "block_hash": "0xf7a06c1be85ba6bfddac6aff4a453c72bcd59aac1f386e08cf28238f05a29cfa",

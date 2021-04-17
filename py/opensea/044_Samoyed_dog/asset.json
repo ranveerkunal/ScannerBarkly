@@ -9,7 +9,7 @@
     "image_original_url": null,
     "animation_url": null,
     "animation_original_url": null,
-    "name": "Samoyed dog",
+    "name": "Samoyed Dog",
     "description": "```\n{\n    \"rank\": 44,\n    \"name\": \"Samoyed dog\",\n    \"tier\": 4,\n    \"wiki\": \"/wiki/Samoyed_(dog)\",\n    \"img\": \"//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/11.10.2015_Samoyed_%28cropped%29.jpg/220px-11.10.2015_Samoyed_%28cropped%29.jpg\"\n}\n```",
     "external_link": null,
     "asset_contract": {
@@ -145,7 +145,7 @@
                 "name": "Ether",
                 "decimals": 18,
                 "eth_price": "1.000000000000000",
-                "usd_price": "2212.090000000000146000"
+                "usd_price": "2426.900000000000091000"
             },
             "base_price": "22700000000000000",
             "extra": "0",

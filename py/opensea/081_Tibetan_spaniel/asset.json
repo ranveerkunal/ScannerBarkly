@@ -9,7 +9,7 @@
     "image_original_url": null,
     "animation_url": null,
     "animation_original_url": null,
-    "name": "Tibetan spaniel",
+    "name": "Tibetan Spaniel",
     "description": "```\n{\n    \"rank\": 81,\n    \"name\": \"Tibetan spaniel\",\n    \"tier\": 3,\n    \"wiki\": \"/wiki/Tibetan_Spaniel\",\n    \"img\": \"//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Tibetansk_spaniel.jpg/220px-Tibetansk_spaniel.jpg\"\n}\n```",
     "external_link": null,
     "asset_contract": {
@@ -145,7 +145,7 @@
                 "name": "Ether",
                 "decimals": 18,
                 "eth_price": "1.000000000000000",
-                "usd_price": "2212.090000000000146000"
+                "usd_price": "2426.900000000000091000"
             },
             "base_price": "12300000000000000",
             "extra": "0",

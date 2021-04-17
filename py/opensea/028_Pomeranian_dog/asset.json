@@ -9,7 +9,7 @@
     "image_original_url": null,
     "animation_url": null,
     "animation_original_url": null,
-    "name": "Pomeranian dog",
+    "name": "Pomeranian Dog",
     "description": "```\n{\n    \"rank\": 28,\n    \"name\": \"Pomeranian dog\",\n    \"tier\": 5,\n    \"wiki\": \"/wiki/Pomeranian_(dog)\",\n    \"img\": \"//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Pomeranian.JPG/220px-Pomeranian.JPG\"\n}\n```",
     "external_link": null,
     "asset_contract": {
@@ -145,7 +145,7 @@
                 "name": "Ether",
                 "decimals": 18,
                 "eth_price": "1.000000000000000",
-                "usd_price": "2212.090000000000146000"
+                "usd_price": "2426.900000000000091000"
             },
             "base_price": "35700000000000000",
             "extra": "0",

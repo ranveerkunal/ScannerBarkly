@@ -9,7 +9,7 @@
     "image_original_url": null,
     "animation_url": null,
     "animation_original_url": null,
-    "name": "Havanese dog",
+    "name": "Havanese Dog",
     "description": "```\n{\n    \"rank\": 79,\n    \"name\": \"Havanese dog\",\n    \"tier\": 3,\n    \"wiki\": \"/wiki/Havanese_dog\",\n    \"img\": \"//upload.wikimedia.org/wikipedia/commons/thumb/e/ed/A_Havanese_judging.jpg/220px-A_Havanese_judging.jpg\"\n}\n```",
     "external_link": null,
     "asset_contract": {
@@ -145,7 +145,7 @@
                 "name": "Ether",
                 "decimals": 18,
                 "eth_price": "1.000000000000000",
-                "usd_price": "2212.090000000000146000"
+                "usd_price": "2426.900000000000091000"
             },
             "base_price": "12700000000000000",
             "extra": "0",
