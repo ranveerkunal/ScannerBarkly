@@ -51,34 +51,44 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final ss = MediaQuery.of(context).size;
-    final scale = min(ss.height, ss.width) / 500;
     final bg = context.read<Config>().palette['7'];
     final model = context.watch<CollectionModel>();
-    return Provider<double>.value(
-      value: scale,
-      child: Scaffold(
-        body: Wrap(children: [
-          Provider<double>.value(
-            value: (max(ss.height, ss.width) - min(ss.height, ss.width)) / 500,
-            child: Container(
-              height: ss.height > ss.width ? ss.height - ss.width : ss.height,
-              width: ss.height > ss.width ? ss.width : ss.width - ss.height,
-              color: bg,
-              child: Center(
-                child: Display(
-                  key: ValueKey<int>(
-                      context.watch<ValueNotifier<Selected?>>().value?.rank ??
-                          0),
-                  size: max(ss.height, ss.width) - min(ss.height, ss.width),
-                ),
-              ),
+    final children = [
+      Provider<double>.value(
+        value: max(ss.height, ss.width) / 1000,
+        child: Container(
+          height: max(ss.height, ss.width) / 2,
+          width: max(ss.height, ss.width) / 2,
+          color: bg,
+          child: Display(
+            key: ValueKey<int>(
+              context.watch<ValueNotifier<Selected?>>().value?.rank ?? 0,
             ),
+            size: max(ss.height, ss.width) / 2,
           ),
-          Provider<double>.value(
-            value: min(ss.height, ss.width) / 500,
-            child: Collage(model),
-          ),
-        ]),
+        ),
+      ),
+      Provider<double>.value(
+        value: max(ss.height, ss.width) / 1000,
+        child: Collage(model),
+      ),
+    ];
+    return Scaffold(
+      body: Container(
+        color: bg,
+        child: Center(
+          child: ss.width > ss.height
+              ? Row(
+                  children: children,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  mainAxisAlignment: MainAxisAlignment.center,
+                )
+              : Column(
+                  children: children,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  mainAxisAlignment: MainAxisAlignment.center,
+                ),
+        ),
       ),
     );
   }

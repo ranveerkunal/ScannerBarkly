@@ -19,6 +19,7 @@ class _TileState extends State<Tile> {
   static final rand = Random(420);
 
   int index = 0;
+  Timer? timer;
 
   @override
   void initState() {
@@ -26,7 +27,7 @@ class _TileState extends State<Tile> {
     if (widget.config.rank < 143) {
       Future.delayed(Duration(seconds: rand.nextInt(12))).then(
         (value) {
-          return Timer.periodic(
+          timer = Timer.periodic(
             Duration(seconds: 3),
             (t) => setState(() => index = rand.nextInt(12) == 0 ? 1 : 0),
           );
@@ -35,6 +36,12 @@ class _TileState extends State<Tile> {
     } else {
       index = 1;
     }
+  }
+
+  @override
+  void dispose() {
+    timer?.cancel();
+    super.dispose();
   }
 
   @override
