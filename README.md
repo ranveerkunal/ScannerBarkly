@@ -29,11 +29,12 @@ Pseudo Code:
 2. Get the info box image for each individual breed.
 3. For each breed
   1. Scale the image such that the longest edge is 420.
-  2. Equalize histogram.
-  3. Scanner Darkly effect: Quantize image to 12 colors (K-Means using L*a*b space).
-  4. Create a 500x500 background using the least common color.
-  5. Add a ribbon based on the tier color.
-  6. Paste the quantized image on the top of the background.
+  2. Add gaussian blur with 5x5 kernel.
+  3. Equalize histogram.
+  4. Scanner Darkly effect: Quantize image to 12 colors (K-Means using L*a*b space).
+  5. Create a 500x500 background using the least common color.
+  6. Add a ribbon based on the tier color.
+  7. Paste the quantized image on the top of the background.
 4. Write the images to disk.
 ```
 
