@@ -11,7 +11,7 @@ class Display extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final selector = context.watch<TileSelector>();
-    final rank = selector.selected;
+    final rank = selector.rank;
     final asset = context.watch<Map<int, TileAsset>>()[rank]!;
     if (asset.img == null) return Container();
     final scale = context.read<double>();

@@ -9,7 +9,9 @@ class TileSelector extends ChangeNotifier {
   bool _blink = true;
   bool get blink => _blink;
   int _rank = 0;
-  int get selected => _rank;
+  int get rank => _rank;
+  int _tier = -1;
+  int get tier => _tier;
 
   TileSelector(this.valid);
 
@@ -20,6 +22,11 @@ class TileSelector extends ChangeNotifier {
   void select(int rank) {
     if (!valid.contains(rank)) return;
     _rank = rank;
+    notifyListeners();
+  }
+
+  void selectTier(int tier) {
+    _tier = tier;
     notifyListeners();
   }
 

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:portal/config.dart';
 import 'package:portal/opensea.dart';
 import 'package:portal/ribbon.dart';
+import 'package:portal/selector.dart';
 import 'package:portal/tile.dart';
 import 'package:provider/provider.dart';
 
@@ -16,6 +17,7 @@ class Collage extends StatelessWidget {
     final scale = context.read<double>();
     final config = context.read<Config>();
     final model = context.watch<CollectionModel>();
+    final selector = context.read<TileSelector>();
     return Container(
       height: 500 * scale,
       width: 500 * scale,
@@ -55,17 +57,30 @@ class Collage extends StatelessWidget {
               width: 35 * 6 * scale,
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: List<int>.generate(6, (i) => i + 1)
-                      .map((i) => config.palette['$i'])
-                      .map((c) => Container(
-                            height: 20 * scale,
-                            width: 20 * scale,
-                            decoration: BoxDecoration(
-                              color: c,
-                              shape: BoxShape.circle,
-                            ),
-                          ))
-                      .toList()),
+                  children: List<int>.generate(6, (i) => i + 1).map(
+                    (i) {
+                      return GestureDetector(
+                        onTap: () => selector.tier == i
+                            ? selector.selectTier(-1)
+                            : selector.selectTier(i),
+                        child: Container(
+                          height: 20 * scale,
+                          width: 20 * scale,
+                          decoration: BoxDecoration(
+                            color: config.palette['$i'],
+                            shape: BoxShape.circle,
+                            border: selector.tier == i
+                                ? Border.all(
+                                    width: 2 * scale,
+                                    color: config.palette['7']!,
+                                    style: BorderStyle.solid,
+                                  )
+                                : null,
+                          ),
+                        ),
+                      );
+                    },
+                  ).toList()),
             ),
           ),
         ],

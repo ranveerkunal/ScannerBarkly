@@ -64,7 +64,7 @@ class MyHomePage extends StatelessWidget {
           height: max(ss.height, ss.width) / 2,
           width: max(ss.height, ss.width) / 2,
           child: Display(
-            key: ValueKey<int>(context.watch<TileSelector>().selected),
+            key: ValueKey<int>(context.watch<TileSelector>().rank),
             size: max(ss.height, ss.width) / 2,
           ),
         ),

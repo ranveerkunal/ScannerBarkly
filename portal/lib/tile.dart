@@ -92,13 +92,17 @@ class _GestureTileState extends State<GestureTile> {
   Widget build(BuildContext context) {
     final selector = context.watch<TileSelector>();
     final rank = widget.config.rank;
-    final hover = selector.selected == rank;
+    final hover = selector.rank == rank;
     final tier = widget.config.tier;
     return GestureDetector(
       onTap: () => selector.select(rank),
       child: Stack(
         children: [
-          Tile(widget.config, img, selector.visible.contains(rank)),
+          Tile(
+            widget.config,
+            img,
+            selector.visible.contains(rank) || selector.tier == tier,
+          ),
           if (hover)
             Container(
               decoration: BoxDecoration(
