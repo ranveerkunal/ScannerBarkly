@@ -1,9 +1,32 @@
 import 'dart:convert';
 import 'dart:ui';
 
+import 'package:flutter/material.dart';
 import 'package:path/path.dart' as p;
+import 'package:portal/opensea.dart';
 
 Color bgrToColor(bgr) => Color.fromRGBO(bgr[2], bgr[1], bgr[0], 1.0);
+
+class TileAsset {
+  final TileConfig config;
+  final Map<String, dynamic>? asset;
+  final ImageProvider? img;
+
+  factory TileAsset(TileConfig config, CollectionModel model) {
+    final asset = model.getAsset(config.id);
+    ImageProvider? img;
+    if (asset != null) {
+      img = NetworkImage(asset['image_url']);
+    } else if (config.rank == 143) {
+      img = AssetImage('data/cover.jpg');
+    } else if (config.rank == 144) {
+      img = AssetImage('data/logo.jpg');
+    }
+    return TileAsset._(config, asset, img);
+  }
+
+  TileAsset._(this.config, this.asset, this.img);
+}
 
 class TileConfig {
   final int rank;

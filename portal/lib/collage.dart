@@ -47,6 +47,27 @@ class Collage extends StatelessWidget {
               child: TheGrid(config, model),
             ),
           ),
+          Positioned(
+            bottom: 5 * scale,
+            right: 40 * scale,
+            child: Container(
+              height: 35 * scale,
+              width: 35 * 6 * scale,
+              child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: List<int>.generate(6, (i) => i + 1)
+                      .map((i) => config.palette['$i'])
+                      .map((c) => Container(
+                            height: 20 * scale,
+                            width: 20 * scale,
+                            decoration: BoxDecoration(
+                              color: c,
+                              shape: BoxShape.circle,
+                            ),
+                          ))
+                      .toList()),
+            ),
+          ),
         ],
       ),
     );

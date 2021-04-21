@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:portal/config.dart';
-import 'package:portal/tile.dart';
+import 'package:portal/selector.dart';
 import 'package:provider/provider.dart';
 
 class Display extends StatelessWidget {
@@ -10,11 +10,10 @@ class Display extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final selected = context.watch<ValueNotifier<Selected?>>();
-    if (selected.value == null) return Container();
-    final config = context.read<Config>();
-    final rank = selected.value!.rank;
-    final tc = config.tiles[rank]!;
+    final selector = context.watch<TileSelector>();
+    final rank = selector.selected;
+    final asset = context.watch<Map<int, TileAsset>>()[rank]!;
+    if (asset.img == null) return Container();
     final scale = context.read<double>();
     return Container(
       alignment: Alignment.center,
@@ -26,12 +25,12 @@ class Display extends StatelessWidget {
           Container(
             height: 40 * scale,
             alignment: Alignment.center,
-            child: Text(tc.name),
+            child: Text('${asset.config.name} #${asset.config.rank}'),
           ),
           FittedBox(
             fit: BoxFit.cover,
             child: Image(
-              image: selected.value!.img,
+              image: asset.img!,
               gaplessPlayback: true,
               fit: BoxFit.cover,
               height: 420 * scale,
