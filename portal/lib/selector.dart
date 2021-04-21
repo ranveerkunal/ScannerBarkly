@@ -38,12 +38,4 @@ class TileSelector extends ChangeNotifier {
       return;
     }
   }
-
-  void filter(Set<int> keep) => visible
-    ..clear()
-    ..addAll(keep);
-
-  void unfilter() => visible
-    ..clear()
-    ..addAll([143, 144]);
 }
