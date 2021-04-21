@@ -101,7 +101,7 @@ class _GestureTileState extends State<GestureTile> {
           Tile(
             widget.config,
             img,
-            selector.visible.contains(rank) || selector.tier == tier,
+            selector.visible.contains(rank) || selector.tiers.contains(tier),
           ),
           if (hover)
             Container(

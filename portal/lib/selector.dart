@@ -6,12 +6,11 @@ class TileSelector extends ChangeNotifier {
   static final rand = Random();
   final Set<int> valid;
   final Set<int> visible = Set.of([143, 144]);
+  final Set<int> tiers = Set.of([]);
   bool _blink = true;
   bool get blink => _blink;
   int _rank = 0;
   int get rank => _rank;
-  int _tier = -1;
-  int get tier => _tier;
 
   TileSelector(this.valid);
 
@@ -25,8 +24,8 @@ class TileSelector extends ChangeNotifier {
     notifyListeners();
   }
 
-  void selectTier(int tier) {
-    _tier = tier;
+  void toggleTier(int tier) {
+    tiers.contains(tier) ? tiers.remove(tier) : tiers.add(tier);
     notifyListeners();
   }
 

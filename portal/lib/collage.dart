@@ -60,16 +60,14 @@ class Collage extends StatelessWidget {
                   children: List<int>.generate(6, (i) => i + 1).map(
                     (i) {
                       return GestureDetector(
-                        onTap: () => selector.tier == i
-                            ? selector.selectTier(-1)
-                            : selector.selectTier(i),
+                        onTap: () => selector.toggleTier(i),
                         child: Container(
                           height: 20 * scale,
                           width: 20 * scale,
                           decoration: BoxDecoration(
                             color: config.palette['$i'],
                             shape: BoxShape.circle,
-                            border: selector.tier == i
+                            border: selector.tiers.contains(i)
                                 ? Border.all(
                                     width: 2 * scale,
                                     color: config.palette['7']!,
