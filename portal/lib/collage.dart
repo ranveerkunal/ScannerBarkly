@@ -50,8 +50,8 @@ class Collage extends StatelessWidget {
             ),
           ),
           Positioned(
-            bottom: 5 * scale,
             right: 40 * scale,
+            top: 5 * scale,
             child: Container(
               height: 35 * scale,
               width: 35 * 6 * scale,
@@ -61,20 +61,30 @@ class Collage extends StatelessWidget {
                     (i) {
                       return GestureDetector(
                         onTap: () => selector.toggleTier(i),
-                        child: Container(
-                          height: 20 * scale,
-                          width: 20 * scale,
-                          decoration: BoxDecoration(
-                            color: config.palette['$i'],
-                            shape: BoxShape.circle,
-                            border: selector.tiers.contains(i)
-                                ? Border.all(
-                                    width: 2 * scale,
-                                    color: config.palette['7']!,
-                                    style: BorderStyle.solid,
-                                  )
-                                : null,
-                          ),
+                        child: Stack(
+                          alignment: Alignment.center,
+                          children: [
+                            Container(
+                              height: 20 * scale,
+                              width: 20 * scale,
+                              decoration: BoxDecoration(
+                                color: config.palette['$i'],
+                                shape: BoxShape.circle,
+                                border: selector.tiers.contains(i)
+                                    ? Border.all(
+                                        width: 2 * scale,
+                                        color: config.palette['7']!,
+                                        style: BorderStyle.solid,
+                                      )
+                                    : null,
+                              ),
+                            ),
+                            Container(
+                              height: 35 * scale,
+                              width: 35 * scale,
+                              color: Colors.transparent,
+                            ),
+                          ],
                         ),
                       );
                     },
