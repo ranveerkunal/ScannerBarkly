@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:math';
 
+import 'package:color_models/color_models.dart';
 import 'package:flutter/material.dart';
 import 'package:portal/config.dart';
 import 'package:portal/selector.dart';
@@ -92,8 +93,8 @@ class _GestureTileState extends State<GestureTile> {
   Widget build(BuildContext context) {
     final selector = context.watch<TileSelector>();
     final rank = widget.config.rank;
-    final hover = selector.rank == rank;
     final tier = widget.config.tier;
+    final fg = widget.config.fg;
     return GestureDetector(
       onTap: () => selector.select(rank),
       child: Stack(
@@ -103,11 +104,11 @@ class _GestureTileState extends State<GestureTile> {
             img,
             selector.visible.contains(rank) || selector.tiers.contains(tier),
           ),
-          if (hover)
+          if (selector.rank == rank)
             Container(
               decoration: BoxDecoration(
                 border: Border.all(
-                  color: context.read<Config>().palette['$tier']!,
+                  color: fg, //context.read<Config>().palette['$tier']!,
                   width: 32 * context.watch<double>() / 12,
                 ),
               ),

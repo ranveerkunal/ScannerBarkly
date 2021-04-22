@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:ui';
 
+import 'package:color_models/color_models.dart';
 import 'package:flutter/material.dart';
 import 'package:path/path.dart' as p;
 import 'package:portal/opensea.dart';
@@ -36,6 +37,15 @@ class TileConfig {
   final String orig;
   final int id;
   final Color bg;
+  final Color fg;
+
+  static Color fgFromBg(Color bg) {
+    final rgb = RgbColor(bg.red, bg.green, bg.blue);
+    final lab = rgb.toLabColor();
+    final delta = lab.lightness > 50 ? -50 : 50;
+    final fg = LabColor(lab.lightness + delta, lab.a, lab.b).toRgbColor();
+    return Color.fromRGBO(fg.red, fg.green, fg.blue, 1.0);
+  }
 
   TileConfig(final tmap)
       : rank = tmap['rank'],
@@ -44,7 +54,8 @@ class TileConfig {
         wiki = p.join('https://en.wikipedia.org', tmap['wiki']),
         orig = 'https://${tmap["img"]}',
         id = tmap['id'] != null ? tmap['id'][0] : 0,
-        bg = bgrToColor(tmap['bgr']);
+        bg = bgrToColor(tmap['bgr']),
+        fg = fgFromBg(bgrToColor(tmap['bgr']));
 
   @override
   String toString() {
