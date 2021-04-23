@@ -32,23 +32,26 @@ class Display extends StatelessWidget {
             ),
             Builder(
               builder: (BuildContext context) {
-                return AnimatedSwitcher(
-                  duration: Duration(seconds: 3),
-                  child: context.watch<ValueNotifier<bool>>().value
-                      ? Image(
-                          image: AssetImage('data/qr.jpg'),
-                          gaplessPlayback: true,
-                          fit: BoxFit.cover,
-                          height: 420 * scale,
-                          width: 420 * scale,
-                        )
-                      : Image(
-                          image: asset.img!,
-                          gaplessPlayback: true,
-                          fit: BoxFit.cover,
-                          height: 420 * scale,
-                          width: 420 * scale,
-                        ),
+                return GestureDetector(
+                  onDoubleTap: () => showQr.value = !showQr.value,
+                  child: AnimatedSwitcher(
+                    duration: Duration(seconds: 3),
+                    child: context.watch<ValueNotifier<bool>>().value
+                        ? Image(
+                            image: AssetImage('data/qr/$rank.jpg'),
+                            gaplessPlayback: true,
+                            fit: BoxFit.cover,
+                            height: 420 * scale,
+                            width: 420 * scale,
+                          )
+                        : Image(
+                            image: asset.img!,
+                            gaplessPlayback: true,
+                            fit: BoxFit.cover,
+                            height: 420 * scale,
+                            width: 420 * scale,
+                          ),
+                  ),
                 );
               },
             ),
