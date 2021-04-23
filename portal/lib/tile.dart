@@ -94,12 +94,11 @@ class _GestureTileState extends State<GestureTile> {
   Widget build(BuildContext context) {
     final selector = context.watch<TileSelector>();
     final rank = widget.config.rank;
-    final name = widget.config.name;
     final tier = widget.config.tier;
     final fg = widget.config.fg;
     return GestureDetector(
       onTap: () {
-        window.history.pushState(null, name, '#/?tile=$rank');
+        window.history.pushState(null, '', '#/?tile=$rank');
         selector.select(rank);
       },
       child: Stack(

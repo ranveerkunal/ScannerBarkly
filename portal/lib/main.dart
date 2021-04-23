@@ -1,3 +1,4 @@
+import 'dart:html';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -59,6 +60,7 @@ class HomePage extends StatelessWidget {
   HomePage(this.config, this.model, String rank)
       : selector = TileSelector(Set.from(config.tiles.keys)),
         super(key: globalKey) {
+    window.history.pushState(null, '', '#/?tile=$rank');
     selector.select(int.tryParse(rank) ?? 145);
   }
 
