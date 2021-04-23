@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'dart:math';
 
-import 'package:color_models/color_models.dart';
 import 'package:flutter/material.dart';
 import 'package:portal/config.dart';
 import 'package:portal/selector.dart';
