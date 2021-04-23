@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
               builder: (BuildContext context) => HomePage(
                 config,
                 model,
-                routingData['tile'] ?? '',
+                routingData['tile'] ?? '145',
               ),
             );
         }
