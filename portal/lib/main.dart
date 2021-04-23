@@ -52,14 +52,12 @@ class MyApp extends StatelessWidget {
 }
 
 class HomePage extends StatelessWidget {
-  static final globalKey = GlobalKey(debugLabel: 'HomePage');
   final Config config;
   final CollectionModel model;
   final TileSelector selector;
 
   HomePage(this.config, this.model, String rank)
-      : selector = TileSelector(Set.from(config.tiles.keys)),
-        super(key: globalKey) {
+      : selector = TileSelector(Set.from(config.tiles.keys)) {
     window.history.pushState(null, '', '#/?tile=$rank');
     selector.select(int.tryParse(rank) ?? 145);
   }
