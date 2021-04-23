@@ -52,44 +52,64 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatelessWidget {
+  final ValueNotifier<bool> showQr = ValueNotifier<bool>(false);
+
   @override
   Widget build(BuildContext context) {
     final ss = MediaQuery.of(context).size;
     final model = context.watch<CollectionModel>();
     final config = context.read<Config>();
-    final children = [
-      Provider<double>.value(
-        value: max(ss.height, ss.width) / 1000,
-        child: Container(
-          height: max(ss.height, ss.width) / 2,
-          width: max(ss.height, ss.width) / 2,
-          child: Display(
-            key: ValueKey<int>(context.watch<TileSelector>().rank),
-            size: max(ss.height, ss.width) / 2,
-          ),
-        ),
-      ),
-      Provider<double>.value(
-        value: max(ss.height, ss.width) / 1000,
-        child: Collage(model),
-      ),
-    ];
-    return Scaffold(
-      body: Container(
-        color: config.palette['bg']!,
-        child: Center(
-          child: ss.width > ss.height
-              ? Row(
-                  children: children,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  mainAxisAlignment: MainAxisAlignment.center,
-                )
-              : Column(
-                  children: children,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  mainAxisAlignment: MainAxisAlignment.center,
-                ),
-        ),
+    final scale = max(ss.height, ss.width) / 1000;
+    return MultiProvider(
+      providers: [
+        Provider<double>.value(value: scale),
+        ChangeNotifierProvider<ValueNotifier<bool>>.value(value: showQr),
+      ],
+      child: Builder(
+        builder: (BuildContext context) {
+          final children = [
+            Container(
+              height: max(ss.height, ss.width) / 2,
+              width: max(ss.height, ss.width) / 2,
+              child: Display(
+                key: ValueKey<int>(context.watch<TileSelector>().rank),
+                size: max(ss.height, ss.width) / 2,
+              ),
+            ),
+            GestureDetector(
+              onDoubleTap: () => showQr.value = !showQr.value,
+              child: AnimatedSwitcher(
+                  duration: Duration(seconds: 3),
+                  child: context.watch<ValueNotifier<bool>>().value
+                      ? Image(
+                          image: AssetImage('data/qr.jpg'),
+                          gaplessPlayback: true,
+                          fit: BoxFit.cover,
+                          height: 500 * scale,
+                          width: 500 * scale,
+                        )
+                      : Collage(model)),
+            ),
+          ];
+          return Scaffold(
+            body: Container(
+              color: config.palette['bg']!,
+              child: Center(
+                child: ss.width > ss.height
+                    ? Row(
+                        children: children,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                      )
+                    : Column(
+                        children: children,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                      ),
+              ),
+            ),
+          );
+        },
       ),
     );
   }

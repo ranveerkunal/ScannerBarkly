@@ -27,15 +27,12 @@ class Display extends StatelessWidget {
             alignment: Alignment.center,
             child: Text('${asset.config.name} #${asset.config.rank}'),
           ),
-          FittedBox(
+          Image(
+            image: asset.img!,
+            gaplessPlayback: true,
             fit: BoxFit.cover,
-            child: Image(
-              image: asset.img!,
-              gaplessPlayback: true,
-              fit: BoxFit.cover,
-              height: 420 * scale,
-              width: 420 * scale,
-            ),
+            height: 420 * scale,
+            width: 420 * scale,
           ),
           Container(
             height: 40 * scale,

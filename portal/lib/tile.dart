@@ -28,6 +28,7 @@ class _TileState extends State<Tile> {
     super.initState();
     Future.delayed(Duration(seconds: rand.nextInt(12))).then(
       (value) {
+        if (!mounted) return;
         timer = Timer.periodic(
           Duration(seconds: 3),
           (t) => setState(() => index = rand.nextInt(12) == 0 ? 1 : 0),
