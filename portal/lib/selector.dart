@@ -14,17 +14,17 @@ class TileSelector extends ChangeNotifier {
 
   TileSelector(this.valid);
 
-  void random() {
-    next(() => rand.nextInt(145));
+  int random() {
+    return next(() => rand.nextInt(145));
   }
 
-  void select(int rank) {
+  int select(int rank) {
     if (!valid.contains(rank)) {
-      random();
-      return;
+      return random();
     }
     _rank = rank;
     notifyListeners();
+    return rank;
   }
 
   void toggleTier(int tier) {
@@ -32,13 +32,14 @@ class TileSelector extends ChangeNotifier {
     notifyListeners();
   }
 
-  void next(int Function() lambda) {
+  int next(int Function() lambda) {
     for (int i = 0; i < 10; i++) {
       final rank = lambda();
       if (!valid.contains(rank)) continue;
       _rank = rank;
       notifyListeners();
-      return;
+      return rank;
     }
+    return 1;
   }
 }
