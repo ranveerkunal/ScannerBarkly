@@ -7,6 +7,7 @@ import 'package:portal/collage.dart';
 import 'package:portal/config.dart';
 import 'package:portal/display.dart';
 import 'package:portal/opensea.dart';
+import 'package:portal/routing.dart';
 import 'package:portal/selector.dart';
 import 'package:provider/provider.dart';
 
@@ -19,11 +20,8 @@ void main() async {
 class MyApp extends StatelessWidget {
   final Config config;
   final CollectionModel model;
-  final TileSelector selector;
 
-  MyApp(this.config)
-      : model = CollectionModel(config.slug),
-        selector = TileSelector(Set.from(config.tiles.keys))..random();
+  MyApp(this.config) : model = CollectionModel(config.slug);
 
   @override
   Widget build(BuildContext context) {
@@ -34,19 +32,50 @@ class MyApp extends StatelessWidget {
           Theme.of(context).textTheme,
         ).apply(bodyColor: Colors.white),
       ),
-      home: MultiProvider(
-        providers: [
-          Provider.value(value: config),
-          ChangeNotifierProvider.value(value: model),
-          ProxyProvider2<Config, CollectionModel, Map<int, TileAsset>>(
-            update: (_, config, model, __) => config.tiles.map(
-              (rank, tc) => MapEntry(rank, TileAsset(tc, model)),
-            ),
+      initialRoute: '/',
+      onGenerateRoute: (RouteSettings settings) {
+        final routingData = settings.name!.getRoutingData;
+        switch (routingData.route) {
+          case '/':
+            return MaterialPageRoute(
+              builder: (BuildContext context) => HomePage(
+                config,
+                model,
+                routingData['tile'] ?? '',
+              ),
+            );
+        }
+      },
+    );
+  }
+}
+
+class HomePage extends StatelessWidget {
+  static final globalKey = GlobalKey(debugLabel: 'HomePage');
+  final Config config;
+  final CollectionModel model;
+  final TileSelector selector;
+
+  HomePage(this.config, this.model, String rank)
+      : selector = TileSelector(Set.from(config.tiles.keys)),
+        super(key: globalKey) {
+    selector.select(int.tryParse(rank) ?? 145);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return MultiProvider(
+      providers: [
+        Provider.value(value: config),
+        ChangeNotifierProvider.value(value: model),
+        ProxyProvider2<Config, CollectionModel, Map<int, TileAsset>>(
+          update: (_, config, model, __) => config.tiles.map(
+            (rank, tc) => MapEntry(rank, TileAsset(tc, model)),
           ),
-          ChangeNotifierProvider.value(value: selector),
-        ],
-        child: Builder(builder: (BuildContext context) => MyHomePage()),
-      ),
+        ),
+        ChangeNotifierProvider.value(value: selector),
+      ],
+      child: Builder(builder: (BuildContext context) => MyHomePage()),
     );
   }
 }

@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:html';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -93,10 +94,14 @@ class _GestureTileState extends State<GestureTile> {
   Widget build(BuildContext context) {
     final selector = context.watch<TileSelector>();
     final rank = widget.config.rank;
+    final name = widget.config.name;
     final tier = widget.config.tier;
     final fg = widget.config.fg;
     return GestureDetector(
-      onTap: () => selector.select(rank),
+      onTap: () {
+        window.history.pushState(null, name, '#/?tile=$rank');
+        selector.select(rank);
+      },
       child: Stack(
         children: [
           Tile(

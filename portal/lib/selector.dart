@@ -15,11 +15,14 @@ class TileSelector extends ChangeNotifier {
   TileSelector(this.valid);
 
   void random() {
-    next(() => rand.nextInt(144));
+    next(() => rand.nextInt(145));
   }
 
   void select(int rank) {
-    if (!valid.contains(rank)) return;
+    if (!valid.contains(rank)) {
+      random();
+      return;
+    }
     _rank = rank;
     notifyListeners();
   }
