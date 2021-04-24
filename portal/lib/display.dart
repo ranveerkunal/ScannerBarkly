@@ -62,7 +62,7 @@ class Display extends StatelessWidget {
                     child: Image.asset('data/opensea.png'),
                   ),
                   TextButton(
-                    onPressed: () => {},
+                    onPressed: () => launch(asset.config.wiki),
                     child: Image.asset('data/wikipedia.png'),
                   ),
                 ],
