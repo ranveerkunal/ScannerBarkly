@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:portal/config.dart';
 import 'package:portal/selector.dart';
 import 'package:provider/provider.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Display extends StatelessWidget {
   final ValueNotifier<bool> showQr = ValueNotifier<bool>(false);
@@ -52,6 +53,20 @@ class Display extends StatelessWidget {
             Container(
               height: 40 * scale,
               alignment: Alignment.center,
+              padding: EdgeInsets.all(5 * scale),
+              child: ButtonBar(
+                alignment: MainAxisAlignment.center,
+                children: [
+                  TextButton(
+                    onPressed: () => launch(asset.config.opensea),
+                    child: Image.asset('data/opensea.png'),
+                  ),
+                  TextButton(
+                    onPressed: () => {},
+                    child: Image.asset('data/wikipedia.png'),
+                  ),
+                ],
+              ),
             ),
           ],
         ),

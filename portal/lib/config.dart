@@ -34,6 +34,7 @@ class TileConfig {
   final String name;
   final int tier;
   final String wiki;
+  final String opensea;
   final String orig;
   final int id;
   final Color bg;
@@ -47,11 +48,14 @@ class TileConfig {
     return Color.fromRGBO(fg.red, fg.green, fg.blue, 1.0);
   }
 
-  TileConfig(final tmap)
+  TileConfig(final contract, final tmap)
       : rank = tmap['rank'],
         name = tmap['id'] != null ? tmap['id'][2] : tmap['name'],
         tier = tmap['tier'],
         wiki = p.join('https://en.wikipedia.org', tmap['wiki']),
+        opensea = tmap['id'] != null
+            ? p.join('https://opensea.io/assets', contract, tmap['id'][1])
+            : '',
         orig = 'https://${tmap["img"]}',
         id = tmap['id'] != null ? tmap['id'][0] : 0,
         bg = bgrToColor(tmap['bgr']),
@@ -77,14 +81,15 @@ class Config {
 
   factory Config(final String configJson) {
     final tmap = json.decode(configJson);
+    final contract = tmap['contract'];
     final tiles = (tmap['tiles'] as List).map(
-      (t) => MapEntry(t['rank'] as int, TileConfig(t)),
+      (t) => MapEntry(t['rank'] as int, TileConfig(contract, t)),
     );
     final palette = (tmap['colors'] as Map).map(
       (k, v) => MapEntry(k as String, bgrToColor(v)),
     );
     return Config._(
-      tmap['contract'],
+      contract,
       tmap['slug'],
       Map.fromEntries(tiles),
       palette,
