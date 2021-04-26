@@ -17,7 +17,7 @@ class Collage extends StatelessWidget {
     final scale = context.read<double>();
     final config = context.read<Config>();
     final model = context.watch<CollectionModel>();
-    final selector = context.read<TileSelector>();
+    final selector = context.watch<TileSelector>();
     return Container(
       height: 500 * scale,
       width: 500 * scale,
