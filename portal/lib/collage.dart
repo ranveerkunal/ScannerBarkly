@@ -59,12 +59,12 @@ class Collage extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
-                  TextButton(
-                    onPressed: () => launch(selected.config.opensea),
+                  GestureDetector(
+                    onTap: () => launch(selected.config.opensea),
                     child: Image.asset('data/opensea.png'),
                   ),
-                  TextButton(
-                    onPressed: () => launch(selected.config.wiki),
+                  GestureDetector(
+                    onTap: () => launch(selected.config.wiki),
                     child: Image.asset('data/wikipedia.png'),
                   ),
                 ],
