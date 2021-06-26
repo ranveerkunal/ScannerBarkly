@@ -52,12 +52,12 @@ class Collage extends StatelessWidget {
             ),
           ),
           Positioned(
-            left: 5 * scale,
-            top: 40 * scale,
+            left: 40 * scale,
+            top: 5 * scale,
             child: Container(
-              height: 35 * 2 * scale,
-              width: 35 * scale,
-              child: Column(
+              height: 35 * scale,
+              width: 35 * 2 * scale,
+              child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   TextButton(
