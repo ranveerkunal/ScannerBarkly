@@ -58,18 +58,15 @@ class Collage extends StatelessWidget {
               height: 35 * scale,
               width: 35 * 2 * scale,
               child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   TextButton(
                     onPressed: () => launch(selected.config.opensea),
-                    child: Image.asset('data/opensea.png', width: 20 * scale),
+                    child: Image.asset('data/opensea.png'),
                   ),
                   TextButton(
                     onPressed: () => launch(selected.config.wiki),
-                    child: Image.asset(
-                      'data/wikipedia.png',
-                      width: 20 * scale,
-                    ),
+                    child: Image.asset('data/wikipedia.png'),
                   ),
                 ],
               ),
