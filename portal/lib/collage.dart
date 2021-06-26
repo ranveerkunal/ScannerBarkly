@@ -62,13 +62,13 @@ class Collage extends StatelessWidget {
                 children: [
                   TextButton(
                     onPressed: () => launch(selected.config.opensea),
-                    child: Image.asset('data/opensea.png', height: 20 * scale),
+                    child: Image.asset('data/opensea.png', width: 20 * scale),
                   ),
                   TextButton(
                     onPressed: () => launch(selected.config.wiki),
                     child: Image.asset(
                       'data/wikipedia.png',
-                      height: 20 * scale,
+                      width: 20 * scale,
                     ),
                   ),
                 ],
