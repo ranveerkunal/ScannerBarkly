@@ -116,8 +116,8 @@ class Collage extends StatelessWidget {
           Positioned(
             bottom: 0 * scale,
             right: 40 * scale,
-            child: TextButton(
-              onPressed: () => Navigator.pushNamed(context, '/about'),
+            child: GestureDetector(
+              onTap: () => Navigator.pushNamed(context, '/about'),
               child: Text(
                 'ABOUT',
                 style: TextStyle(color: config.palette['0']),
