@@ -113,6 +113,17 @@ class Collage extends StatelessWidget {
                   ).toList()),
             ),
           ),
+          Positioned(
+            bottom: 5 * scale,
+            right: 5 * scale,
+            child: TextButton(
+              onPressed: () => Navigator.pushNamed(context, '/about'),
+              child: Text(
+                'ABOUT',
+                style: TextStyle(color: config.palette['0']),
+              ),
+            ),
+          ),
         ],
       ),
     );

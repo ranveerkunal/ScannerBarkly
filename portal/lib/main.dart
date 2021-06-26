@@ -4,6 +4,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:portal/collage.dart';
 import 'package:portal/config.dart';
@@ -16,7 +17,9 @@ import 'package:provider/provider.dart';
 void main() async {
   print('Woof.. Woof...');
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(MyApp(Config(await rootBundle.loadString('data/config.json'))));
+  final about = await rootBundle.loadString('data/README.md');
+  final config = await rootBundle.loadString('data/config.json');
+  runApp(MyApp(Config(config, about)));
 }
 
 class MyApp extends StatelessWidget {
@@ -45,6 +48,30 @@ class MyApp extends StatelessWidget {
                 model,
                 routingData['tile'] ?? '145',
               ),
+            );
+          case '/about':
+            return MaterialPageRoute(
+              builder: (BuildContext context) {
+                final bg = config.palette['bg']!;
+                return Scaffold(
+                  appBar: AppBar(
+                    title: Text('ABOUT'),
+                    backgroundColor: bg,
+                    elevation: 0,
+                  ),
+                  body: Container(
+                    color: bg,
+                    child: Markdown(
+                      //controller: controller,
+                      selectable: true,
+                      data: config.about,
+                      styleSheet: MarkdownStyleSheet(
+                        code: TextStyle(color: config.palette['7']!),
+                      ),
+                    ),
+                  ),
+                );
+              },
             );
         }
       },
@@ -101,10 +128,7 @@ class MyHomePage extends StatelessWidget {
             Container(
               height: max(ss.height, ss.width) / 2,
               width: max(ss.height, ss.width) / 2,
-              child: Display(
-                // key: ValueKey<int>(context.watch<TileSelector>().rank),
-                size: max(ss.height, ss.width) / 2,
-              ),
+              child: Display(size: max(ss.height, ss.width) / 2),
             ),
             GestureDetector(
               onDoubleTap: () => showQr.value = !showQr.value,

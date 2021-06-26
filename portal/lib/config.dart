@@ -73,13 +73,14 @@ class Config {
   final Map<int, TileConfig> tiles;
   final Map<String, Color> palette;
   final Color bg;
+  final String about;
 
   Color colorOfTier(int tier) {
     if (tier > 7) tier = 7;
     return palette['$tier'] ?? bg;
   }
 
-  factory Config(final String configJson) {
+  factory Config(final String configJson, final String about) {
     final tmap = json.decode(configJson);
     final contract = tmap['contract'];
     final tiles = (tmap['tiles'] as List).map(
@@ -94,10 +95,12 @@ class Config {
       Map.fromEntries(tiles),
       palette,
       palette['bg'] ?? bgrToColor([255, 0, 0]),
+      about,
     );
   }
 
-  Config._(this.contract, this.slug, this.tiles, this.palette, this.bg);
+  Config._(
+      this.contract, this.slug, this.tiles, this.palette, this.bg, this.about);
 
   @override
   String toString() {
