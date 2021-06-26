@@ -6,6 +6,7 @@ import 'package:portal/ribbon.dart';
 import 'package:portal/selector.dart';
 import 'package:portal/tile.dart';
 import 'package:provider/provider.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Collage extends StatelessWidget {
   final CollectionModel model;
@@ -18,6 +19,7 @@ class Collage extends StatelessWidget {
     final config = context.read<Config>();
     final model = context.watch<CollectionModel>();
     final selector = context.watch<TileSelector>();
+    final selected = context.watch<Map<int, TileAsset>>()[selector.rank]!;
     return Container(
       height: 500 * scale,
       width: 500 * scale,
@@ -47,6 +49,30 @@ class Collage extends StatelessWidget {
               height: 420 * scale,
               width: 420 * scale,
               child: TheGrid(config, model),
+            ),
+          ),
+          Positioned(
+            left: 5 * scale,
+            top: 40 * scale,
+            child: Container(
+              height: 35 * 2 * scale,
+              width: 35 * scale,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  TextButton(
+                    onPressed: () => launch(selected.config.opensea),
+                    child: Image.asset('data/opensea.png', height: 20 * scale),
+                  ),
+                  TextButton(
+                    onPressed: () => launch(selected.config.wiki),
+                    child: Image.asset(
+                      'data/wikipedia.png',
+                      height: 20 * scale,
+                    ),
+                  ),
+                ],
+              ),
             ),
           ),
           Positioned(
@@ -94,6 +120,57 @@ class Collage extends StatelessWidget {
         ],
       ),
     );
+  }
+}
+
+class Gandu extends StatelessWidget {
+  const Gandu({
+    Key? key,
+    required this.selector,
+    required this.scale,
+    required this.config,
+  }) : super(key: key);
+
+  final TileSelector selector;
+  final double scale;
+  final Config config;
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        children: List<int>.generate(6, (i) => i + 1).map(
+          (i) {
+            return GestureDetector(
+              onTap: () => selector.toggleTier(i),
+              child: Stack(
+                alignment: Alignment.center,
+                children: [
+                  Container(
+                    height: 20 * scale,
+                    width: 20 * scale,
+                    decoration: BoxDecoration(
+                      color: config.palette['$i'],
+                      shape: BoxShape.circle,
+                      border: selector.tiers.contains(i)
+                          ? Border.all(
+                              width: 2 * scale,
+                              color: config.palette['7']!,
+                              style: BorderStyle.solid,
+                            )
+                          : null,
+                    ),
+                  ),
+                  Container(
+                    height: 35 * scale,
+                    width: 35 * scale,
+                    color: Colors.transparent,
+                  ),
+                ],
+              ),
+            );
+          },
+        ).toList());
   }
 }
 
