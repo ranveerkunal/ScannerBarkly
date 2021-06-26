@@ -61785,26 +61785,25 @@ gan:function(){return"windows"},
 gl3:function(){return"\\"}}
 E.Ys.prototype={}
 T.BD.prototype={
-R:function(a0,a1){var s,r,q,p,o,n,m,l,k,j,i,h,g=null,f=Y.dp(a1,!1,t.i),e=t._g,d=Y.dp(a1,!1,e),c=Y.dp(a1,!0,t.lB),b=Y.dp(a1,!0,t.tX),a=J.as(Y.dp(a1,!0,t.LH),b.e)
-a.toString
-s=500*f
-e=Y.dp(a1,!1,e).e
-r=140*f
-q=172*f
-p=32*f
-o=T.acP(q,new A.vS(p,C.rX,g),0,0,r)
-q=T.acP(0,new A.vS(p,C.A0,g),r,q,0)
-r=40*f
-p=420*f
-p=T.pj(g,M.cn(g,new T.Hr(d,c,g),g,g,g,p,g,g,p),g,g,r,g,r,g)
-n=35*f
+R:function(a,a0){var s,r,q,p,o,n,m,l,k,j,i,h=null,g=Y.dp(a0,!1,t.i),f=t._g,e=Y.dp(a0,!1,f),d=Y.dp(a0,!0,t.lB),c=Y.dp(a0,!0,t.tX),b=J.as(Y.dp(a0,!0,t.LH),c.e)
+b.toString
+s=500*g
+f=Y.dp(a0,!1,f).e
+r=140*g
+q=172*g
+p=32*g
+o=T.acP(q,new A.vS(p,C.rX,h),0,0,r)
+q=T.acP(0,new A.vS(p,C.A0,h),r,q,0)
+r=40*g
+p=420*g
+p=T.pj(h,M.cn(h,new T.Hr(e,d,h),h,h,h,p,h,h,p),h,h,r,h,r,h)
+n=35*g
 m=t.F
-a=T.pj(g,M.cn(g,T.FZ(H.a([U.ad6(U.acm("data/opensea.png",g,g),new T.QP(a),g),U.ad6(U.acm("data/wikipedia.png",g,g),new T.QQ(a),g)],m),C.ca,C.ha,C.bp,g),g,g,g,n,g,g,105*f),g,g,r,g,g,g)
-l=5*f
-k=J.oK(6,t.S)
-for(j=0;j<6;j=i){i=j+1
-k[j]=i}h=H.W(k).i("aa<1,iP>")
-return M.cn(g,T.na(C.hP,H.a([o,q,p,a,T.pj(g,M.cn(g,T.FZ(P.an(new H.aa(k,new T.QR(b,f,d),h),!0,h.i("aq.E")),C.ca,C.rz,C.bp,g),g,g,g,n,g,g,210*f),g,g,g,r,l,g),T.pj(l,U.ad6(L.qd("ABOUT",g,A.kX(g,g,d.d.h(0,"0"),g,g,g,g,g,g,g,g,g,g,g,g,g,!0,g,g,g,g,g,g),g),new T.QS(a1),g),g,g,g,l,g,g)],m),C.cG),e,g,g,s,g,g,s)}}
+b=T.pj(h,M.cn(h,T.FZ(H.a([U.ad6(U.acm("data/opensea.png",h,h),new T.QP(b),h),U.ad6(U.acm("data/wikipedia.png",h,h),new T.QQ(b),h)],m),C.ca,C.ha,C.bp,h),h,h,h,n,h,h,105*g),h,h,r,h,h,h)
+l=J.oK(6,t.S)
+for(k=0;k<6;k=j){j=k+1
+l[k]=j}i=H.W(l).i("aa<1,iP>")
+return M.cn(h,T.na(C.hP,H.a([o,q,p,b,T.pj(h,M.cn(h,T.FZ(P.an(new H.aa(l,new T.QR(c,g,e),i),!0,i.i("aq.E")),C.ca,C.rz,C.bp,h),h,h,h,n,h,h,210*g),h,h,h,r,5*g,h),T.pj(0*g,U.ad6(L.qd("ABOUT",h,A.kX(h,h,e.d.h(0,"0"),h,h,h,h,h,h,h,h,h,h,h,h,h,!0,h,h,h,h,h,h),h),new T.QS(a0),h),h,h,h,r,h,h)],m),C.cG),f,h,h,s,h,h,s)}}
 T.QP.prototype={
 $0:function(){return T.Ox(this.a.a.e)},
 $S:0}
