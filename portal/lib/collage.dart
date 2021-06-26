@@ -114,8 +114,8 @@ class Collage extends StatelessWidget {
             ),
           ),
           Positioned(
-            bottom: 5 * scale,
-            right: 5 * scale,
+            bottom: 0 * scale,
+            right: 40 * scale,
             child: TextButton(
               onPressed: () => Navigator.pushNamed(context, '/about'),
               child: Text(
