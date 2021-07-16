@@ -126,7 +126,7 @@ class Collage extends StatelessWidget {
           ),
           Positioned(
             bottom: 5 * scale,
-            right: 80 * scale,
+            right: 120 * scale,
             child: GestureDetector(
               onTap: () =>
                   launch('https://www.instagram.com/oakcali1601/?hl=en'),
