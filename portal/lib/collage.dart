@@ -114,7 +114,7 @@ class Collage extends StatelessWidget {
             ),
           ),
           Positioned(
-            bottom: 0 * scale,
+            bottom: 5 * scale,
             right: 40 * scale,
             child: GestureDetector(
               onTap: () => Navigator.pushNamed(context, '/about'),
@@ -125,13 +125,13 @@ class Collage extends StatelessWidget {
             ),
           ),
           Positioned(
-            bottom: 0 * scale,
+            bottom: 5 * scale,
             right: 80 * scale,
             child: GestureDetector(
               onTap: () =>
                   launch('https://www.instagram.com/oakcali1601/?hl=en'),
               child: Text(
-                'OakCali ☕',
+                'OakCali',
                 style: TextStyle(
                   color: config.palette['0'],
                 ),
