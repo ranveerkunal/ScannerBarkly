@@ -124,6 +124,20 @@ class Collage extends StatelessWidget {
               ),
             ),
           ),
+          Positioned(
+            bottom: 0 * scale,
+            right: 80 * scale,
+            child: GestureDetector(
+              onTap: () =>
+                  launch('https://www.instagram.com/oakcali1601/?hl=en'),
+              child: Text(
+                'OakCali ☕',
+                style: TextStyle(
+                  color: config.palette['0'],
+                ),
+              ),
+            ),
+          ),
         ],
       ),
     );
